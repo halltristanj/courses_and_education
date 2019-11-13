@@ -68,44 +68,44 @@ Progress:
 </details>
 
 <details>
-<summary>[] Section 5: Flow Control</summary>
+<summary>[ ] Section 5: Flow Control</summary>
 
-- [] 57. Introduction
-- [] 58. Oracle Java Documentation
-- [] 59. for Loops
-- [] 60. IntelliJ Debugger
-- [] 61. More on for Loops
-- [] 62. Nested for Loops
-- [] 63. Using the Debugger for HammerBitcoin
-- [] 64. More Debugging of HammerBitcoin
-- [] 65. for Loops in Eliza
-- [] 66. Understanding More About Eliza
-- [] 67. while Loops
-- [] 68. while Loop Challenge Solution
-- [] 69. Which Way is Better?
-- [] 70. do - while Loop
-- [] 71. do - while Loop Challenge Solution
-- [] 72. Summary
-- [] Quiz 5: Section 5 Quiz
+- [ ] 57. Introduction
+- [ ] 58. Oracle Java Documentation
+- [ ] 59. for Loops
+- [ ] 60. IntelliJ Debugger
+- [ ] 61. More on for Loops
+- [ ] 62. Nested for Loops
+- [ ] 63. Using the Debugger for HammerBitcoin
+- [ ] 64. More Debugging of HammerBitcoin
+- [ ] 65. for Loops in Eliza
+- [ ] 66. Understanding More About Eliza
+- [ ] 67. while Loops
+- [ ] 68. while Loop Challenge Solution
+- [ ] 69. Which Way is Better?
+- [ ] 70. do - while Loop
+- [ ] 71. do - while Loop Challenge Solution
+- [ ] 72. Summary
+- [ ] Quiz 5: Section 5 Quiz
 </details>
 
 <details>
-<summary>[] Section 6: Flow Control: if/else and switch</summary>
+<summary>[ ] Section 6: Flow Control: if/else and switch</summary>
 </details>
 
 <details>
-  <summary>[] Section 7: Flow control: Methods</summary>
+  <summary>[ ] Section 7: Flow control: Methods</summary>
 </details>
 
 <details>
-  <summary>[] Section 8: Operators</summary>
+  <summary>[ ] Section 8: Operators</summary>
 </details>
 
 <details>
-  <summary>[] Section 9: Dealing with Strings</summary>
+  <summary>[ ] Section 9: Dealing with Strings</summary>
 </details>
 
 <details>
-  <summary>[] Section 10: Extra Content</summary>
+  <summary>[ ] Section 10: Extra Content</summary>
 </details>
 
