@@ -14,7 +14,7 @@ public class BitcoinMiner {
     private static final String ANSI_GREEN = "\u001B[32m";
     private static final String ANSI_YELLOW = "\u001B[33m";
 
-    private static Random randomGenerator = new Random();
+    private Random randomGenerator = new Random();
     private static Scanner scanner = new Scanner(System.in);
 
     private int year = 1;
