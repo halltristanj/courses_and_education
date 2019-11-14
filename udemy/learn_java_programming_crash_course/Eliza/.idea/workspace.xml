@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50ff4a6b-2f5d-41e6-8b4e-5719c4466add" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../cave-docker/builds.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../cave-docker/builds.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cave-tools/Jenkins-build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../cave-tools/Jenkins-build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../docker/DockerCookbook/3.2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../docker/DockerCookbook/3.2/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eliza/academy/learnprogramming/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eliza/academy/learnprogramming/Doctor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eliza/academy/learnprogramming/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eliza/academy/learnprogramming/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Doctor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HammerBitcoin/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HammerBitcoin/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HammerBitcoin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HammerBitcoin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HammerBitcoin/out/production/HammerBitcoin/academy/learnprogramming/BitcoinMiner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HammerBitcoin/out/production/HammerBitcoin/academy/learnprogramming/BitcoinMiner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HammerBitcoin/src/academy/learnprogramming/BitcoinMiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HammerBitcoin/src/academy/learnprogramming/BitcoinMiner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UserInput/src/academy/learnprogramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UserInput/src/academy/learnprogramming/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,14 +27,16 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1TDGFeplJKpccXVmB74ieECvi0X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -86,5 +92,36 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/academy/learnprogramming/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/academy/learnprogramming/Doctor.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/academy/learnprogramming/Doctor.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/academy/learnprogramming/Doctor.java</url>
+          <line>162</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

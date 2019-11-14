@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
+import static java.util.Map.entry;
 
 /**
  * Simple "Eliza" program.
@@ -19,9 +20,9 @@ import java.util.Random;
  */
 public class Doctor {
 
-    private static final Random RANDOM_GENERATOR = new Random();
+    private static Random randomGenerator = new Random();
 
-    private static final List<String> MATCHES = List.of(
+    private static List<String> matches = List.of(
             "life",
             "i need",
             "why don't", "why can't",
@@ -51,25 +52,25 @@ public class Doctor {
             "quit"
     );
 
-    private static final Map<String, String> REFLECTIONS = Map.ofEntries(
-            Map.entry(" am", " are"),
-            Map.entry(" was", " were"),
-            Map.entry("I ", "you "),
-            Map.entry("I'd", "you would"),
-            Map.entry("I've", "you have"),
-            Map.entry("I'll", "you will"),
-            Map.entry("my ", "your "),
-            Map.entry("are ", "am "),
-            Map.entry("you've", "I have"),
-            Map.entry("you'll", "I will"),
-            Map.entry("your", "my"),
-            Map.entry("yours", "mine"),
-            Map.entry("you", "me"),
-            Map.entry("me", "you"),
-            Map.entry("I'm", "you're")
+    private static final Map<String, String> reflections = Map.ofEntries(
+            entry(" am", " are"),
+            entry(" was", " were"),
+            entry("I ", "you "),
+            entry("I'd", "you would"),
+            entry("I've", "you have"),
+            entry("I'll", "you will"),
+            entry("my ", "your "),
+            entry("are ", "am "),
+            entry("you've", "I have"),
+            entry("you'll", "I will"),
+            entry("your", "my"),
+            entry("yours", "mine"),
+            entry("you", "me"),
+            entry("me", "you"),
+            entry("I'm", "you're")
     );
 
-    private static final List<List<String>> RESPONSES = List.of(
+    private static final List<List<String>> responses = List.of(
             List.of("Life? Don't talk to me about life.", "At least you have a life, I'm stuck inside this computer.", "Life can be good. Remember, 'this, too, will pass'."),
             List.of("Why do you need %1?", "Would it really help you to get %1?", "Are you sure you need %1?"),
             List.of("Do you really think I don't %1?", "Perhaps eventually I will %1.", "Do you really want me to %1?"),
@@ -114,6 +115,7 @@ public class Doctor {
     );
 
 
+
     public static String intro() {
         return String.join(System.lineSeparator(),
                 "I'm Eliza",
@@ -127,53 +129,52 @@ public class Doctor {
     public static String response(String userInput) {
         // check through the matches list, and if there's a match, strip off the match and replace with the response.
         //
-        // If the response contains %1, replace that with the Remainder of the input string.
+        // If the response contains %1, replace that with the remainder of the input string.
         // Before replacing, change words in the Remainder of the input with the corresponding entry from the reflections dictionary.
-        String output = "";
+        var output = "";
         String remainder = "";
 
-        for (int index = 0; index < MATCHES.size(); index++) {
-            String match = MATCHES.get(index);
-            int position = userInput.toLowerCase().indexOf(match);
+        for (var index = 0; index < matches.size(); index++) {
+            String match = matches.get(index);
+            var position = userInput.toLowerCase().indexOf(match);
 
             if (position > -1) {
                 // found a match, delete everything up to the end of the text we found.
-                String rem = userInput.substring(0, position + match.length()); // get String that need to be removed
-                rem = userInput.replace(rem, "");   // replace removed String with empty e.g. remove it
+                remainder = userInput.substring(0, position + match.length()); // get String that need to be removed
+                remainder = userInput.replace(remainder, "");   // replace removed String with empty e.g. remove it
 
                 // Now replace the reflections: I -> you, etc
                 // We need to split the input into words, to avoid changing eg. me -> you then the same you -> me.
-                String[] words = rem.split(" ");
+                String[] words = remainder.split(" ");
 
                 for (int i = 0; i < words.length; i++) {
-                    for (String reflection : REFLECTIONS.keySet()) {
-                        if (words[i].equals(reflection)) {
-                            words[i] = REFLECTIONS.get(reflection);
+                    for (String reflection : reflections.keySet()) {
+                        if(words[i].equals(reflection)) {
+                            words[i] = reflections.get(reflection);
+                            break;
                         }
                     }
                 }
 
-                // now join the words back up again
-                rem = String.join(" ", words);
-
-                // strip leading and trailing spaces
-                remainder = rem.trim();
-
-                int randomIndex = RANDOM_GENERATOR.nextInt(RESPONSES.get(index).size());
-                output = RESPONSES.get(index).get(randomIndex);
+                // now join the words back up again and string leading and trailing spaces (trim)
+                remainder = String.join(" ", words).trim();
+                var responseList = responses.get(index);
+                int randomIndex = randomGenerator.nextInt(responseList.size());
+                output = responseList.get(randomIndex);
                 break;
             }
         }
 
         // If there wasn't a match, use the last item in the responses list.
-        if (output.isBlank()) {
-            int randomIndex = RANDOM_GENERATOR.nextInt(RESPONSES.get(RESPONSES.size() - 1).size());
-            output = RESPONSES.get(RESPONSES.size() - 1).get(randomIndex);
+        if(output.isBlank()) {
+            int maxIndex = responses.size() - 1;
+            var responseList = responses.get(maxIndex);
+            int randomIndex = randomGenerator.nextInt(responseList.size());
+            output = responseList.get(randomIndex);
         }
 
         // Now substitute the modified input for %1 (if it exists) in the response.
-        output = output.replace("%1", remainder);
-        return output;
+        return output.replace("%1", remainder);
     }
 
 }

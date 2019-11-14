@@ -70,10 +70,10 @@ Progress:
 <details>
 <summary>[ ] Section 5: Flow Control</summary>
 
-- [ ] 57. Introduction
-- [ ] 58. Oracle Java Documentation
-- [ ] 59. for Loops
-- [ ] 60. IntelliJ Debugger
+- [x] 57. Introduction
+- [x] 58. Oracle Java Documentation
+- [x] 59. for Loops
+- [x] 60. IntelliJ Debugger
 - [ ] 61. More on for Loops
 - [ ] 62. Nested for Loops
 - [ ] 63. Using the Debugger for HammerBitcoin
