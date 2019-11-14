@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50ff4a6b-2f5d-41e6-8b4e-5719c4466add" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eliza/academy/learnprogramming/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eliza/academy/learnprogramming/Doctor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eliza/academy/learnprogramming/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eliza/academy/learnprogramming/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Doctor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HammerBitcoin/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HammerBitcoin/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HammerBitcoin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HammerBitcoin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HammerBitcoin/out/production/HammerBitcoin/academy/learnprogramming/BitcoinMiner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HammerBitcoin/out/production/HammerBitcoin/academy/learnprogramming/BitcoinMiner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HammerBitcoin/src/academy/learnprogramming/BitcoinMiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HammerBitcoin/src/academy/learnprogramming/BitcoinMiner.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +95,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/academy/learnprogramming/Main.java</url>
-          <line>15</line>
+          <line>16</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

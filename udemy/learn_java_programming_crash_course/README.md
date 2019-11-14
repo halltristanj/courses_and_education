@@ -74,7 +74,7 @@ Progress:
 - [x] 58. Oracle Java Documentation
 - [x] 59. for Loops
 - [x] 60. IntelliJ Debugger
-- [ ] 61. More on for Loops
+- [x] 61. More on for Loops
 - [ ] 62. Nested for Loops
 - [ ] 63. Using the Debugger for HammerBitcoin
 - [ ] 64. More Debugging of HammerBitcoin
