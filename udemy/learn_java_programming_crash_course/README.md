@@ -91,6 +91,24 @@ Progress:
 
 <details>
 <summary>[ ] Section 6: Flow Control: if/else and switch</summary>
+- [ ] 73. Introduction
+- [ ] 74. if Statement
+- [ ] 75. else
+- [ ] 76. More if and else
+- [ ] 77. if-else Challenge
+- [ ] 78. Challenge Solution
+- [ ] 79. Play Again Challenge Solution
+- [ ] 80. switch Statement
+- [ ] 81. default case
+- [ ] 82. Handling Multiple Cases
+- [ ] 83. Using break in Loops
+- [ ] 84. continue
+- [ ] 85. Scope of break and continue
+- [ ] 86. Ternary Conditional Operator
+- [ ] 87. Ternary Conditional Operator Challenge
+- [ ] 88. Solution to Ternary Conditional Operator Challenge
+- [ ] 89. Summary
+- [ ] Quiz 6: Section 6 Quiz
 </details>
 
 <details>
