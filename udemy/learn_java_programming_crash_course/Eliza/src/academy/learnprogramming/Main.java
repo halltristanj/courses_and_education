@@ -10,13 +10,15 @@ public class Main {
 
 	    System.out.println(Doctor.intro());
 
-	    var userInput = "";
+//	    var userInput = "";
+		String userInput;
 
-	    while(!userInput.equalsIgnoreCase("quit")) {
+//		while(!userInput.equalsIgnoreCase("quit")) {
+	    do {
 	    	userInput = scanner.nextLine();
 	    	String response = Doctor.response(userInput);
 	    	System.out.println(response);
-		}
+		} while(!userInput.equalsIgnoreCase("quit"));
 
 	    scanner.close();
     }

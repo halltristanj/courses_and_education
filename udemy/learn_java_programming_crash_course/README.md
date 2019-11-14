@@ -68,25 +68,25 @@ Progress:
 </details>
 
 <details>
-<summary>[ ] Section 5: Flow Control</summary>
+<summary>[x] Section 5: Flow Control</summary>
 
 - [x] 57. Introduction
 - [x] 58. Oracle Java Documentation
 - [x] 59. for Loops
 - [x] 60. IntelliJ Debugger
 - [x] 61. More on for Loops
-- [ ] 62. Nested for Loops
-- [ ] 63. Using the Debugger for HammerBitcoin
-- [ ] 64. More Debugging of HammerBitcoin
-- [ ] 65. for Loops in Eliza
-- [ ] 66. Understanding More About Eliza
-- [ ] 67. while Loops
-- [ ] 68. while Loop Challenge Solution
-- [ ] 69. Which Way is Better?
-- [ ] 70. do - while Loop
-- [ ] 71. do - while Loop Challenge Solution
-- [ ] 72. Summary
-- [ ] Quiz 5: Section 5 Quiz
+- [x] 62. Nested for Loops
+- [x] 63. Using the Debugger for HammerBitcoin
+- [x] 64. More Debugging of HammerBitcoin
+- [x] 65. for Loops in Eliza
+- [x] 66. Understanding More About Eliza
+- [x] 67. while Loops
+- [x] 68. while Loop Challenge Solution
+- [x] 69. Which Way is Better?
+- [x] 70. do - while Loop
+- [x] 71. do - while Loop Challenge Solution
+- [x] 72. Summary
+- [x] Quiz 5: Section 5 Quiz
 </details>
 
 <details>

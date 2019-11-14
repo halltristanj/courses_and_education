@@ -4,6 +4,10 @@
     <list default="true" id="50ff4a6b-2f5d-41e6-8b4e-5719c4466add" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleMenu/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleMenu/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleMenu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleMenu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleMenu/out/production/SimpleMenu/academy/learnprogramming/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleMenu/out/production/SimpleMenu/academy/learnprogramming/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleMenu/src/academy/learnprogramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleMenu/src/academy/learnprogramming/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +28,7 @@
   <component name="ProjectId" id="1TDGFeplJKpccXVmB74ieECvi0X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimpleMenu" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -94,16 +98,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/academy/learnprogramming/Main.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/academy/learnprogramming/Doctor.java</url>
-          <line>136</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/academy/learnprogramming/Doctor.java</url>
           <line>149</line>
           <option name="timeStamp" value="3" />
@@ -112,6 +106,16 @@
           <url>file://$PROJECT_DIR$/src/academy/learnprogramming/Doctor.java</url>
           <line>162</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/academy/learnprogramming/Doctor.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/academy/learnprogramming/Doctor.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
