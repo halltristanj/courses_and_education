@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8afbd902-c0ef-44d8-a332-3f6bba7ff185" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../cave-docker/builds.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../cave-docker/builds.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cave-tools/Jenkins-build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../cave-tools/Jenkins-build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../docker/DockerCookbook/3.2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../docker/DockerCookbook/3.2/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eliza/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Eliza/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/BitcoinMiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/BitcoinMiner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UserInput/src/academy/learnprogramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UserInput/src/academy/learnprogramming/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleMenu/out/production/SimpleMenu/academy/learnprogramming/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleMenu/out/production/SimpleMenu/academy/learnprogramming/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleMenu/src/academy/learnprogramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleMenu/src/academy/learnprogramming/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,10 +21,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1TG5zt9Xbcod2rwn3sh4vE7JHje" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -80,5 +83,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
   </component>
 </project>

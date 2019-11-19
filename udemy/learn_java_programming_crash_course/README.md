@@ -90,25 +90,26 @@ Progress:
 </details>
 
 <details>
-<summary>[ ] Section 6: Flow Control: if/else and switch</summary>
-- [ ] 73. Introduction
-- [ ] 74. if Statement
-- [ ] 75. else
-- [ ] 76. More if and else
-- [ ] 77. if-else Challenge
-- [ ] 78. Challenge Solution
-- [ ] 79. Play Again Challenge Solution
-- [ ] 80. switch Statement
-- [ ] 81. default case
-- [ ] 82. Handling Multiple Cases
-- [ ] 83. Using break in Loops
-- [ ] 84. continue
-- [ ] 85. Scope of break and continue
-- [ ] 86. Ternary Conditional Operator
-- [ ] 87. Ternary Conditional Operator Challenge
-- [ ] 88. Solution to Ternary Conditional Operator Challenge
-- [ ] 89. Summary
-- [ ] Quiz 6: Section 6 Quiz
+<summary>[x] Section 6: Flow Control: if/else and switch</summary>
+
+- [x] 73. Introduction
+- [x] 74. if Statement
+- [x] 75. else
+- [x] 76. More if and else
+- [x] 77. if-else Challenge
+- [x] 78. Challenge Solution
+- [x] 79. Play Again Challenge Solution
+- [x] 80. switch Statement
+- [x] 81. default case
+- [x] 82. Handling Multiple Cases
+- [x] 83. Using break in Loops
+- [x] 84. continue
+- [x] 85. Scope of break and continue
+- [x] 86. Ternary Conditional Operator
+- [x] 87. Ternary Conditional Operator Challenge
+- [x] 88. Solution to Ternary Conditional Operator Challenge
+- [x] 89. Summary
+- [x] Quiz 6: Section 6 Quiz
 </details>
 
 <details>

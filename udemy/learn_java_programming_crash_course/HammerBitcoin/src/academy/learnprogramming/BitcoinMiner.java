@@ -260,13 +260,15 @@ public class BitcoinMiner {
      * @return The number of new hires.
      */
     private int countNewHires() {
-        int newEmployees;
+        int newEmployees = starved > 0
+                ? 0
+                : (20 * computers + cash) / (100 * employees) + 1;;
 
-        if (starved > 0) {
-            newEmployees = 0;
-        } else {
-            newEmployees = (20 * computers + cash) / (100 * employees) + 1;
-        }
+//        if (starved > 0) {
+//            newEmployees = 0;
+//        } else {
+//            newEmployees = (20 * computers + cash) / (100 * employees) + 1;
+//        }
         return newEmployees;
     }
 
