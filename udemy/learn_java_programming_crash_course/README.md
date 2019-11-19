@@ -112,8 +112,7 @@ Progress:
 - [x] Quiz 6: Section 6 Quiz
 </details>
 
-<details>
-  <summary>[ ] Section 7: Flow control: Methods</summary>
+- [ ] Section 7: Flow control: Methods
 - [ ] 90. Introduction
 - [ ] 91. Calling Methods
 - [ ] 92. Methods Calling Methods
@@ -138,7 +137,6 @@ Progress:
 - [ ] 111. Solution Continued
 - [ ] 112. Summary
 - [ ] Quiz 7: Section 7 Quiz
-</details>
 
 <details>
   <summary>[ ] Section 8: Operators</summary>
