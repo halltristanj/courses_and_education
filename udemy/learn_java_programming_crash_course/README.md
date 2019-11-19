@@ -114,6 +114,30 @@ Progress:
 
 <details>
   <summary>[ ] Section 7: Flow control: Methods</summary>
+- [ ] 90. Introduction
+- [ ] 91. Calling Methods
+- [ ] 92. Methods Calling Methods
+- [ ] 93. Method Parameters
+- [ ] 94. Parameter Challenge Solution
+- [ ] 95. Brake Challenge Solution
+- [ ] 96. Simple Car Game Version 1
+- [ ] 97. Adding Libraries
+- [ ] 98. Version 2 of Simple Car Game
+- [ ] 99. public and private Methods
+- [ ] 100. Return a Result from a Method
+- [ ] 101. Why Duplicating Code is Bad
+- [ ] 102. Refactor Game Removing Duplicate Code
+- [ ] 103. Passing by Value
+- [ ] 104. Global Variables
+- [ ] 105. Refactoring Challenge
+- [ ] 106. Challenge Solution
+- [ ] 107. Variable Scope
+- [ ] 108. Removing Global Variables
+- [ ] 109. Scope Challenge and Summary
+- [ ] 110. Challenge Solution
+- [ ] 111. Solution Continued
+- [ ] 112. Summary
+- [ ] Quiz 7: Section 7 Quiz
 </details>
 
 <details>
