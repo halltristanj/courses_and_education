@@ -6,15 +6,15 @@ public class Main {
 	    Car myCar = new Car("Steve");
 	    Car anotherCar = new Car("Another Car");
 
-	    myCar.accelerate();
-        myCar.accelerate();
-        myCar.accelerate();
-        myCar.accelerate();
-        myCar.accelerate();
-	    myCar.brake();
-        myCar.accelerate();
+	    myCar.accelerate(5);
+        myCar.accelerate(1);
+        myCar.accelerate(7);
+        myCar.accelerate(8);
+        myCar.accelerate(4);
+	    myCar.brake(100);
+        myCar.accelerate(500);
 
-        anotherCar.brake();
+        anotherCar.brake(50);
     }
 }
 
@@ -27,13 +27,13 @@ class Car {
         name = carName;
     }
 
-    public void accelerate() {
-        speed++;
+    public void accelerate(int amount) {
+        speed += amount;
         showSpeed();
     }
 
-    public void brake() {
-        speed--;
+    public void brake(int amount) {
+        speed = speed < amount ? 0 : speed - amount;
         showSpeed();
     }
 
