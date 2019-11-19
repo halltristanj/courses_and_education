@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8afbd902-c0ef-44d8-a332-3f6bba7ff185" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Eliza/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Eliza/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/BitcoinMiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/BitcoinMiner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleMenu/out/production/SimpleMenu/academy/learnprogramming/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleMenu/out/production/SimpleMenu/academy/learnprogramming/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleMenu/src/academy/learnprogramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleMenu/src/academy/learnprogramming/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="8afbd902-c0ef-44d8-a332-3f6bba7ff185" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +21,7 @@
   <component name="ProjectId" id="1TG5zt9Xbcod2rwn3sh4vE7JHje" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClassesIntro" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
