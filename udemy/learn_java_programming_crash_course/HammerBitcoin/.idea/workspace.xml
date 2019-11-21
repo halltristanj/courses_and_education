@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8afbd902-c0ef-44d8-a332-3f6bba7ff185" name="Default Changelist" comment="" />
+    <list default="true" id="8afbd902-c0ef-44d8-a332-3f6bba7ff185" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../CarGame/out/artifacts/CarGame_jar/CarGame.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../CarGame/out/artifacts/CarGame_jar/CarGame.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarGame/out/production/CarGame/academy/learnprogramming/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CarGame/out/production/CarGame/academy/learnprogramming/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarGame/out/production/CarGame/academy/learnprogramming/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CarGame/out/production/CarGame/academy/learnprogramming/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarGame/src/academy/learnprogramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CarGame/src/academy/learnprogramming/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/BitcoinMiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/BitcoinMiner.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

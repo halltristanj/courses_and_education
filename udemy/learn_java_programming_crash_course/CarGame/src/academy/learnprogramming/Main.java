@@ -4,6 +4,8 @@ import org.jline.terminal.Terminal;
 import org.jline.terminal.TerminalBuilder;
 import org.jline.utils.NonBlockingReader;
 
+import javax.swing.plaf.DimensionUIResource;
+
 public class Main {
 
     private static final String ROAD = "|                             |";
@@ -17,6 +19,13 @@ public class Main {
     private static final char BRAKE = 'x';
     private static final char INFO = 'i';
     private static final char QUIT = 'q';
+
+    // Directions
+    private static final int DIRECTION_LEFT = -1;
+    private static final int DIRECTION_STRAIGHT = 0;
+    private static final int DIRECTION_RIGHT = 1;
+
+    private static int carPosition = 15;
 
     public static void main(String[] args) throws Exception {
 
@@ -33,7 +42,6 @@ public class Main {
         int control;
         boolean playing = true;
         int accelerationFactor = 1;
-        int carPosition = 15;
 
         // Instructions
         System.out.println("=> without timeout <=");
@@ -66,21 +74,13 @@ public class Main {
             } else {
                 switch (control) {
                     case LEFT:
-                        for (int i = 0; i < batmobile.getSpeed(); i++) {
-                            carPosition--;
-                            drawRoad(carPosition);
-                        }
+                        playing = drive(batmobile.getSpeed(), DIRECTION_LEFT);
                         break;
                     case STRAIGHT:
-                        for (int i = 0; i < batmobile.getSpeed(); i++) {
-                            drawRoad(carPosition);
-                        }
+                        playing = drive(batmobile.getSpeed(), DIRECTION_STRAIGHT);
                         break;
                     case RIGHT:
-                        for (int i = 0; i < batmobile.getSpeed(); i++) {
-                            carPosition++;
-                            drawRoad(carPosition);
-                        }
+                        playing = drive(batmobile.getSpeed(), DIRECTION_RIGHT);
                         break;
                     case ACCELERATE:
                         batmobile.accelerate(accelerationFactor);
@@ -89,7 +89,7 @@ public class Main {
                         batmobile.brake(accelerationFactor);
                         break;
                     case INFO:
-                        //batmobile.ShowSpeed();
+                        batmobile.showSpeed();
                         break;
                     case QUIT:
                         playing = false;
@@ -100,6 +100,23 @@ public class Main {
 
         reader.close();
         terminal.close();
+    }
+
+    private static boolean drive(int speed, int direction) {
+        for (int i = 0; i < speed; i++) {
+            carPosition = carPosition - direction;
+            if(stillOnTrack(carPosition, ROAD)) {
+                drawRoad(carPosition);
+            } else {
+                System.out.println("Dead.");
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private static boolean stillOnTrack(int position, String road) {
+        return (position < road.length()) && road.charAt(position) == ' ';
     }
 
     private static void drawRoad(int carPosition) {
@@ -136,7 +153,7 @@ class Car {
         showSpeed();
     }
 
-    private void showSpeed() {
+    public void showSpeed() {
         System.out.printf("%s is going %s miles per hour.%n", name, speed * 10);
     }
 }

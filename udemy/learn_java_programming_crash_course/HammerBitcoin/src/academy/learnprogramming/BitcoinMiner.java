@@ -67,15 +67,22 @@ public class BitcoinMiner {
         while (year <= 10 && stillInOffice) {
             computerPrice = updateComputerPrice();
             printSummary();
-            buyComputers();
-            sellComputers();
-            payEmployees();
-            maintainComputers();
 
-            marketCrashVictims = checkForCrash();
+            int computersToBuy = buyComputers(computers);
+            computers += computersToBuy;
+
+            int computersToSell = sellComputers(computerPrice, computers);
+            computers -= computersToSell;
+
+            cashPaidToEmployees = payEmployees(cash);
+            cash -= cashPaidToEmployees;
+
+            computersMaintained = maintainComputers(computers, employees);
+
+            marketCrashVictims = checkForCrash(employees);
             employees = employees - marketCrashVictims;
 
-            if (countStarvedEmployees() >= 45) {
+            if (countStarvedEmployees(cashPaidToEmployees) >= 45) {
                 stillInOffice = false;
             }
 
@@ -123,7 +130,7 @@ public class BitcoinMiner {
      * <p>
      * If a valid amount is entered, the available cash is reduced accordingly.
      */
-    private void buyComputers() {
+    private int buyComputers(int numberOfComputers) {
         int computersToBuy;
         String question = "How many computers will you buy? ";
 
@@ -136,9 +143,9 @@ public class BitcoinMiner {
             cost = computerPrice * computersToBuy;
         }
         cash = cash - cost;
-        computers = computers + computersToBuy;
-        System.out.printf("%s, you now have %s computers %n", OGH, computers);
+        System.out.printf("%s, you now have %s computers %n", OGH, numberOfComputers + computersToBuy);
         System.out.printf("and %s bitcoins of cash.%n", cash);
+        return computersToBuy;
     }
 
     /**
@@ -156,7 +163,7 @@ public class BitcoinMiner {
      * <p>
      * Available cash will be increased by the value of the computers sold.
      */
-    private void sellComputers() {
+    private int sellComputers(int computerPrice, int computers) {
         String question = "How many computers will you sell? ";
         int computersToSell = getNumber(question);
 
@@ -165,9 +172,9 @@ public class BitcoinMiner {
             computersToSell = getNumber(question);
         }
         cash = cash + computerPrice * computersToSell;
-        computers = computers - computersToSell;
-        System.out.printf("%s, you now have %s computers%n", OGH, computers);
+        System.out.printf("%s, you now have %s computers%n", OGH, computers - computersToSell);
         System.out.printf("and %s bitcoins of cash.%n", cash);
+        return computersToSell;
     }
 
     /**
@@ -175,25 +182,26 @@ public class BitcoinMiner {
      * <p>
      * If a valid amount is entered, the available cash is reduced accordingly.
      */
-    private void payEmployees() {
+    private int payEmployees(int cash) {
         String question = "How much bitcoin will you distribute to the employees? ";
-        cashPaidToEmployees = getNumber(question);
+        int cashPaid = getNumber(question);
 
-        while (cashPaidToEmployees > cash) {
+        while (cashPaid > cash) {
             jest(String.format("We have but %s bitcoins!", cash));
-            cashPaidToEmployees = getNumber(question);
+            cashPaid = getNumber(question);
         }
-        cash = cash - cashPaidToEmployees;
-        System.out.printf("%s, %s bitcoins remain.%n", OGH, cash);
+        System.out.printf("%s, %s bitcoins remain.%n", OGH, cash - cashPaid);
+        return cashPaid;
     }
 
     /**
      * Allows the user to choose how much to spend on maintenance.
      */
-    private void maintainComputers() {
+    private int maintainComputers(int computers, int employees) {
         String question = "How many bitcoins will you allocate for maintenance? ";
         int maintenanceAmount = 0;
         boolean haveGoodAnswer = false;
+        int quantityMaintained;
 
         while (!haveGoodAnswer) {
             maintenanceAmount = getNumber(question);
@@ -207,10 +215,11 @@ public class BitcoinMiner {
                 haveGoodAnswer = true;
             }
         }
-        computersMaintained = maintenanceAmount / 2;
+        quantityMaintained = maintenanceAmount / 2;
         // Be nice to the player!  If they enter an odd number, give them the extra bitcoin back.
-        cash = cash - computersMaintained * 2;  // can re-write as cash -= computersMaintained * 2;
+        cash -= quantityMaintained * 2;
         System.out.printf("%s, we now have %s bitcoins in storage.%n", OGH, cash);
+        return quantityMaintained;
     }
 
     /**
@@ -218,7 +227,7 @@ public class BitcoinMiner {
      *
      * @return The number of victims of the crash.
      */
-    private int checkForCrash() {
+    private int checkForCrash(int employees) {
         int victims;
 
         if (randomGenerator.nextDouble() < 0.15) {
@@ -235,7 +244,7 @@ public class BitcoinMiner {
      *
      * @return The percent of employees who starved.
      */
-    private int countStarvedEmployees() {  // TODO: Has side effects
+    private int countStarvedEmployees(int cashPaidToEmployees) {  // TODO: Has side effects
         int employeesPaid = cashPaidToEmployees / 20;
         int percentStarved = 0;
 
