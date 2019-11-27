@@ -143,6 +143,17 @@ Progress:
 
 <details>
   <summary>[ ] Section 8: Operators</summary>
+
+- [x] 113. Operators and Operator Precedence
+- [x] 114. Primary Operators
+- [x] 115. Avoid ++ and -- in Expressions
+- [x] 116. Operator Precedence
+- [x] 117. Using the Remainder Operator
+- [x] 118. Remainder in Rock, Paper, Scissors
+- [x] 119. Relational and Conditional Operators
+- [x] 120. Short Circuit Evaluation
+- [x] 121. Assignment Operators
+- [x] Quiz 8: Section 8 Quiz
 </details>
 
 <details>
