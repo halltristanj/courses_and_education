@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class Main {
 
-    private static final int ROCK = 0;
-    private static final int PAPER = 1;
-    private static final int SCISSORS = 2;
+    private static final int ROCK = 0;  // beats SCISSORS (SCISSORS + 1 % 3 = 0
+    private static final int PAPER = 1; // beats ROCK. (ROCK + 1) % 3 = 1
+    private static final int SCISSORS = 2;  // beats PAPER (PAPER + 1) % 3 = 2
     private static Scanner scanner = new Scanner((System.in));
 
     public static void main(String[] args) {
@@ -47,8 +47,9 @@ public class Main {
 
             if (playerValue == computerValue) {
                 System.out.println("Tie.");
-            } else if ((playerValue - 1 == computerValue)
-                    || (playerValue == ROCK && computerValue == SCISSORS)) {
+//            } else if ((playerValue - 1 == computerValue)
+//                    || (playerValue == ROCK && computerValue == SCISSORS)) {
+            } else if (playerValue == (computerValue + 1) % 3) {
                 System.out.println("Player wins.");
             } else {
                 System.out.println("Computer wins.");
