@@ -1,6 +1,6 @@
 Code for my lessons on Learn Java Programming Crash Course by Tim Buchalka.
 
-Progress:
+Progress: COMPLETE
 
 <details>
   <summary>[x] Section 1: Introduction and Course Information</summary>
