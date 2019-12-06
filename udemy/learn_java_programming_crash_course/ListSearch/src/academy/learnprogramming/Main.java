@@ -32,11 +32,13 @@ public class Main {
         //                  0123456789
         String userInput = "I think I need to learn Java";
         String output = "";
+        String lowerCaseInput = userInput.toLowerCase();
 
         for (int index = 0; index < matches.size(); index++) {
 
             String match = matches.get(index);
             int position = userInput.toLowerCase().indexOf(match);
+
             if (position > -1) {
                 // found a match
                 output = responses.get(index);
