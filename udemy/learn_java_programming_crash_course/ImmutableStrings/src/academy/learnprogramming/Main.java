@@ -5,23 +5,22 @@ public class Main {
     public static void main(String[] args) {
 
         StringBuilder first = new StringBuilder("This is a string");
-        StringBuilder second = new StringBuilder("This is a string");
 
-//        System.out.printf("first: %s%n", first);
-//
-//        System.out.println("clearing first");
-//        first.delete(0, first.length());
-//        System.out.printf("first: *%s* %n", first);
-//
-//        first.append("Another string");
-//        System.out.printf("first: *%s* %n", first);
+        int a = 12;
+        int b = 34;
+        int c = 56;
+
+        first.append(' ');
+        first.append(a);
+        first.append(' ');
+        first.append(3.45);
+        first.append(' ');
+        first.append(a == 12);
+        first.append(' ');
+        first.append(b > c);
+        first.append(" ");
+        first.append("Java is great", 8, 13);
 
         System.out.println(first);
-        var a = first.delete(0, first.length());
-        System.out.println(a);
-        System.out.println(a == first);
-        System.out.println(a.equals(first));
-        System.out.println(first);
-        System.out.println(a);
     }
 }

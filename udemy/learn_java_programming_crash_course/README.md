@@ -157,10 +157,29 @@ Progress:
 </details>
 
 <details>
-  <summary>[ ] Section 9: Dealing with Strings</summary>
-</details>
+<summary>[x] Section 9: Dealing with Strings</summary>
 
-<details>
-  <summary>[ ] Section 10: Extra Content</summary>
+- [x] 122. What is a String?
+- [x] 123. Indexing
+- [x] 124. String Length Method
+- [x] 125. IndexOf
+- [x] 126. Case Insensitive IndexOf
+- [x] 127. lastIndexOf and Repeated Matches
+- [x] 128. Processing Matches with replaceFirst and substring
+- [x] 129. Java String Methods Documentation
+- [x] 130. String Equality
+- [x] 131. Value and Reference Types
+- [x] 132. Strings are Immutable
+- [x] 133. The StringBuilder Class
+- [x] 134. Mutable Reference Types Explanation
+- [x] 135. Equality with Reference Types
+- [x] 136. Append, Delete and Method Chaining
+- [x] 137. Challenge Solution
+- [x] 138. More on Method Chaining
+- [x] 139. Introduction to Overloaded Methods
+- [x] 140. toString and valueOf Methods
+- [x] 141. Searching for Text in a StringBuilder
+- [x] 142. More Content
+- [x] 143. Upcoming Content
 </details>
 
