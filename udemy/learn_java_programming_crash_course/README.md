@@ -142,7 +142,7 @@ Progress: COMPLETE
 </details>
 
 <details>
-  <summary>[ ] Section 8: Operators</summary>
+  <summary>[x] Section 8: Operators</summary>
 
 - [x] 113. Operators and Operator Precedence
 - [x] 114. Primary Operators
