@@ -3,6 +3,15 @@ Code for my lessons on DevOps Project: CI/CD with Jenkins Ansible Docker Kuberne
 While I have worked extensively with Jenkins and CI/CD pipelines that include Git and Docker, I have not 
 built a Pipeline from scratch. This tutorial will teach me the end-to-end process.
 
+This tutorial gives me exposure to:
+- AWS
+- Jenkins
+- Docker
+- Maven (new for me)
+- Kubernetes (new for me)
+- Tomcat (new for me)
+- Ansible
+
 # Progress
 :hourglass_flowing_sand: Class is in session.
 
