@@ -3,6 +3,9 @@ Code for my lessons on DevOps Project: CI/CD with Jenkins Ansible Docker Kuberne
 While I have worked extensively with Jenkins and CI/CD pipelines that include Git and Docker, I have not 
 built a Pipeline from scratch. This tutorial will teach me the end-to-end process.
 
+This tutorial requires a repo of its own. I have created a private repo for development/educational purposes.
+Contact me if you'd like to see it.
+
 This tutorial gives me exposure to:
 - AWS
 - Jenkins
@@ -35,7 +38,14 @@ This tutorial gives me exposure to:
 - [x] 10. Create first Maven job
 </details>
 
-Section 3: Integrating Tomcat server in CI/CD pipeline
+<details>
+<summary>[x] Section 3: Integrating Tomcat server in CI/CD pipeline</summary>
+
+- [x] 11. Tomcat Server setup
+- [x] 12. Deploy a war file on Tomcat VM using Jenkins
+- [x] 13. Deploy on VM through PollSCM
+</details>
+
 
 Section 4: Integrating Docker in CI/CD pipeline
 
