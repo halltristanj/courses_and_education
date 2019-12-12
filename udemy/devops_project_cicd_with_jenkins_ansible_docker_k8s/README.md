@@ -47,7 +47,15 @@ This tutorial gives me exposure to:
 </details>
 
 
-Section 4: Integrating Docker in CI/CD pipeline
+<details>
+<summary>[x] Section 4: Integrating Docker in CI/CD pipeline</summary>
+
+- [x] 14. Docker Setup
+- [x] 15. Integrating Docker with Jenkins
+- [x] 16. Jenkins Job to copy artifacts on to DockerHost
+- [x] 17. Create a Dockerfile
+- [x] 18. Deploy a war file on Docker container using Jenkins
+</details>
 
 Section 5: Integrating Ansible in CI/CD pipeline
 
