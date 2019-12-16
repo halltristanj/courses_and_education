@@ -29,7 +29,7 @@ This tutorial gives me exposure to:
 </details>
 
 <details>
-<summary>[ ] Section 2: CI/CD pipeline using Git, Jenkins, and Maven</summary>
+<summary>[x] Section 2: CI/CD pipeline using Git, Jenkins, and Maven</summary>
 
 - [x] 6. Jenkins Installation
 - [x] 7. Run Frist Jenkins Job
