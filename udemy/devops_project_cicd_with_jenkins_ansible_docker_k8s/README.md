@@ -57,6 +57,20 @@ This tutorial gives me exposure to:
 - [x] 18. Deploy a war file on Docker container using Jenkins
 </details>
 
-Section 5: Integrating Ansible in CI/CD pipeline
+<details>
+<summary>[x] Section 5: Integrating Ansible in CI/CD pipeline</summary>
+
+- [x] 19. Ansible setup
+- [x] 20. Integrate Ansible with Jenkins
+- [x] 21. Creating an Ansible playbook
+- [x] 22. Common issues faced during practice
+- [x] 23. Run Ansible playbooks from Jenkins
+- [x] 24. Update Ansible Playbooks to delete and create docker containers
+- [x] 25. DockerHub Integration with Ansible
+- [x] 26. Tagging Docker image using Ansible playbooks
+- [x] 27. Jenkins job to deploy on Docker container through Dockerhub
+- [x] 28. Jenkins job to deploy a war file on Docker container using Ansible
+</details>
+
 
 Section 6: Integrating Kubernetes in CI/CD pipeline
