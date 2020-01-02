@@ -16,7 +16,9 @@ This tutorial gives me exposure to:
 - Ansible
 
 # Progress
-:hourglass_flowing_sand: Class is in session.
+:heavy_check_mark: Complete
+
+[Certificate](certificate.pdf)
 
 <details>
 <summary>[x] Section 1: Introduction</summary>
