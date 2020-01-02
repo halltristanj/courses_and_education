@@ -73,4 +73,21 @@ This tutorial gives me exposure to:
 </details>
 
 
-Section 6: Integrating Kubernetes in CI/CD pipeline
+<details>
+<summary>[x] Section 6: Integrating Kubernetes in CI/CD pipeline</summary>
+
+- [x] 29. Introduction to Kubernetes Section
+- [x] 30. Setup Kubernetes Part-1: Setup Ubuntu Server
+- [x] 31. Setup Kubernetes Part-2 : Setup Cluster on AWS
+- [x] 32. Create deployment and service using kubectl commands
+- [x] 33. Create deployment and service using YAML files
+- [x] 34. Integrate Kubernetes with Ansible
+- [x] 35. Create deployment and service using Ansible
+- [x] 36. Jenkins CD job to deploy on Kubernetes
+- [x] 37. Jenkins CI job to create an Docker image
+- [x] 38. Integrating Jenknis CI/CD jobs to deploy on Kubernetes
+- [x] 39. Automate deployment on Kubernetes with CI/CD Job
+- [x] 40. Setup CI/CD Job for Kubernetes - Final Lab
+- [x] 41. Conclusion
+- [x] 42. Bonus Lecture
+</details>
