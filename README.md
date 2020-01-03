@@ -5,9 +5,12 @@ This is not an exhaustive list of languages/techs/platforms I know. This is just
 
 Note: This is mixed code between what is provided in the course and what I have added.
 
-## Udemy
+## Udemy (ordered by in progress)
+### Computer Science 101: Master the Theory Behind Computer Programming
+Status: :hourglass_flowing_sand: In progress
+
 ### Learn Java Programming Crash Course by Tim Buchalka
-Status: Complete
+Status: :heavy_check_mark: Complete
 
 ### DevOps Project: CI/CD with Jenkins Ansible Docker Kubernetes by AR Shankar 
-Status: In Progress
+Status: :heavy_check_mark: Complete
