@@ -17,5 +17,9 @@ Status: :hourglass_flowing_sand: In progress
 ### Learn Java Programming Crash Course by Tim Buchalka
 Status: :heavy_check_mark: Complete
 
+[Local Progress](https://github.com/halltristanj/courses_and_education/tree/master/udemy/learn_java_programming_crash_course) | [Udemy Link](https://cisco.udemy.com/course/learn-java-programming-crash-course/)
+
 ### DevOps Project: CI/CD with Jenkins Ansible Docker Kubernetes by AR Shankar 
 Status: :heavy_check_mark: Complete
+
+[Local Progress](https://github.com/halltristanj/courses_and_education/tree/master/udemy/devops_project_cicd_with_jenkins_ansible_docker_k8s) | [Udemy Link](https://cisco.udemy.com/course/valaxy-devops/)
