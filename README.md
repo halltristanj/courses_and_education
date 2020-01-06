@@ -5,7 +5,7 @@ This is not an exhaustive list of languages/techs/platforms I know. This is just
 
 Note: This is mixed code between what is provided in the course and what I have added.
 
-## `algorithms`
+## [`algorithms`](https://github.com/halltristanj/courses_and_education/tree/master/algorithms)
 Common algorithms that I've written personally from scratch for practice.
 
 ## Udemy (ordered by in progress)
