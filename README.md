@@ -5,15 +5,21 @@ This is not an exhaustive list of languages/techs/platforms I know. This is just
 
 Note: This is mixed code between what is provided in the course and what I have added.
 
-# algorithms
+## [`algorithms`](https://github.com/halltristanj/courses_and_education/tree/master/algorithms)
 Common algorithms that I've written personally from scratch for practice.
 
 ## Udemy (ordered by in progress)
 ### Computer Science 101: Master the Theory Behind Computer Programming
 Status: :hourglass_flowing_sand: In progress
 
+[Local Progress](https://github.com/halltristanj/courses_and_education/tree/master/udemy/computer_science_101_master_the_theory_behind_programming) | [Udemy Link](https://cisco.udemy.com/course/computer-science-101-master-the-theory-behind-programming/)
+
 ### Learn Java Programming Crash Course by Tim Buchalka
 Status: :heavy_check_mark: Complete
 
+[Local Progress](https://github.com/halltristanj/courses_and_education/tree/master/udemy/learn_java_programming_crash_course) | [Udemy Link](https://cisco.udemy.com/course/learn-java-programming-crash-course/)
+
 ### DevOps Project: CI/CD with Jenkins Ansible Docker Kubernetes by AR Shankar 
 Status: :heavy_check_mark: Complete
+
+[Local Progress](https://github.com/halltristanj/courses_and_education/tree/master/udemy/devops_project_cicd_with_jenkins_ansible_docker_k8s) | [Udemy Link](https://cisco.udemy.com/course/valaxy-devops/)
