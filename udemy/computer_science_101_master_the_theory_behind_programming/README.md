@@ -68,7 +68,7 @@ I've enrolled in this to gain another perspective on these materials.
 </details>
 
 <details>
-<summary>[] Section 5: Stacks and Queues</summary>
+<summary>[x] Section 5: Stacks and Queues</summary>
 
 - [x] 37. Stacks
 - [x] 38. Stack Examples
