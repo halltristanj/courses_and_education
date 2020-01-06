@@ -38,11 +38,33 @@ I've enrolled in this to gain another perspective on these materials.
 <details>
 <summary>Section 3: Arrays</summary>
 
+- [x] 17. How is Data Stored?
+- [x] 18. Fixed Array Introduction
+- [x] 19. Fixed Array Run Times
+- [x] 20. Binary Search Algorithm (Fixed Array Sorted Search)
+- [x] 21. Fixed Array Notes
+- [x] 22. Circular Arrays
+- [x] 23. Dynamic Arrays
+- [x] 24. O(1) Approximation
+- [x] 25. Circular and Dynamic Array Notes
+- [x] 26. Array Review
+- [x] 27. Array Real World Examples
+- [x] Quiz 3: Array Quiz
 </details>
 
 <details>
 <summary>Section 4: Linked Lists</summary>
 
+- [ ] 28. Nodes
+- [ ] 29. Singly Linked List
+- [ ] 30. Linked List Run Times
+- [ ] 31. Singly-Linked List Notes
+- [ ] 32. Doubly Linked Lists
+- [ ] 33. Tail Pointers
+- [ ] 34. Doubly-Linked List and Tail Pointer Notes
+- [ ] 35. Linked List Real World Examples
+- [ ] 36. Linked List Review
+- [ ] Quiz 4: Linked Lists
 </details>
 
 <details>
