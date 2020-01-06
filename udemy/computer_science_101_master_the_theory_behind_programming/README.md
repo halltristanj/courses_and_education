@@ -70,16 +70,16 @@ I've enrolled in this to gain another perspective on these materials.
 <details>
 <summary>[] Section 5: Stacks and Queues</summary>
 
-- [ ] 37. Stacks
-- [ ] 38. Stack Examples
-- [ ] 39. Stack Notes
-- [ ] 40. Queues
-- [ ] 41. Queue Examples
-- [ ] 42. Queue Notes
-- [ ] 43. Queue and Stack Run Times
-- [ ] 44. Stack and Queue Real World Examples
-- [ ] Quiz 5: Stacks and Queues Quiz
-- [ ] 45. Stacks and Queues Quiz Explanation
+- [x] 37. Stacks
+- [x] 38. Stack Examples
+- [x] 39. Stack Notes
+- [x] 40. Queues
+- [x] 41. Queue Examples
+- [x] 42. Queue Notes
+- [x] 43. Queue and Stack Run Times
+- [x] 44. Stack and Queue Real World Examples
+- [x] Quiz 5: Stacks and Queues Quiz
+- [x] 45. Stacks and Queues Quiz Explanation
 </details>
 
 <details>
