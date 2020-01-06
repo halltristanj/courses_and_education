@@ -5,6 +5,9 @@ This is not an exhaustive list of languages/techs/platforms I know. This is just
 
 Note: This is mixed code between what is provided in the course and what I have added.
 
+# algorithms
+Common algorithms that I've written personally from scratch for practice.
+
 ## Udemy (ordered by in progress)
 ### Computer Science 101: Master the Theory Behind Computer Programming
 Status: :hourglass_flowing_sand: In progress
