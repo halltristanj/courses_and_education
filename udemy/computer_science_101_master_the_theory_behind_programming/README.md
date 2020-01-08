@@ -83,27 +83,27 @@ I've enrolled in this to gain another perspective on these materials.
 </details>
 
 <details>
-<summary>[] Section 6: Sorting Algorithms</summary>
+<summary>[x] Section 6: Sorting Algorithms</summary>
 
-- [ ] 46. Introduction to Sorting Algorithms
-- [ ] 47. Bubble Sort
-- [ ] 48. Bubble Sort Notes
-- [ ] 49. Selection Sort
-- [ ] 50. Selection Sort Notes
-- [ ] Quiz 6: Bubble Sort and Selection Sort Quiz
-- [ ] 51. Insertion Sort
-- [ ] 52. Insertion Sort Notes
-- [ ] 53. Quick Sort
-- [ ] 54. Quick Sort Run Time
-- [ ] 55. Quick Sort Notes
-- [ ] Quiz 7: Insertion Sort and Quick Sort Quiz
-- [ ] 56. Merge Sort
-- [ ] 57. Merge Sort Run Times
-- [ ] 58. Merge Sort Notes
-- [ ] 59. Stable vs NonStable
-- [ ] 60. Stable Vs NonStable Notes
-- [ ] Quiz 8: Merge Sort and Stability Quiz
-- [ ] 61. Sorting Algorithm Real World Examples
+- [x] 46. Introduction to Sorting Algorithms
+- [x] 47. Bubble Sort
+- [x] 48. Bubble Sort Notes
+- [x] 49. Selection Sort
+- [x] 50. Selection Sort Notes
+- [x] Quiz 6: Bubble Sort and Selection Sort Quiz
+- [x] 51. Insertion Sort
+- [x] 52. Insertion Sort Notes
+- [x] 53. Quick Sort
+- [x] 54. Quick Sort Run Time
+- [x] 55. Quick Sort Notes
+- [x] Quiz 7: Insertion Sort and Quick Sort Quiz
+- [x] 56. Merge Sort
+- [x] 57. Merge Sort Run Times
+- [x] 58. Merge Sort Notes
+- [x] 59. Stable vs NonStable
+- [x] 60. Stable Vs NonStable Notes
+- [x] Quiz 8: Merge Sort and Stability Quiz
+- [x] 61. Sorting Algorithm Real World Examples
 </details>
 
 <details>
