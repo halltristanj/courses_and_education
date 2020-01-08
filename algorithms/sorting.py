@@ -23,7 +23,7 @@ def bubble_sort(arr=None):
             if arr[i] > arr[i + 1]:
                 arr[i], arr[i + 1] = arr[i + 1], arr[i]
                 is_sorted = True
-    print(f'Bubble sorted array: {arr}')
+    print(f'Bubble Sorted array: {arr}')
     return arr
 
 
@@ -48,7 +48,7 @@ def selection_sort(arr=None):
             if arr[j] < arr[low_index]:
                 low_index = j
         arr[i], arr[low_index] = arr[low_index], arr[i]
-    print(f"Selection sorted array: {arr}")
+    print(f"Selection Sorted array: {arr}")
     return arr
 
 
@@ -89,14 +89,12 @@ def partition(xs, start, end):
     """
     follower = leader = start
     pivot_value = xs[end]
-    print(f"Pivot Value: {pivot_value}")
     while leader < end:
         if xs[leader] <= pivot_value:
             xs[follower], xs[leader] = xs[leader], xs[follower]
             follower += 1
         leader += 1
     xs[follower], xs[end] = xs[end], xs[follower]
-    print(f"partioned: {xs}")
     return follower
 
 
@@ -118,11 +116,72 @@ def quicksort(xs):
     return a
 
 
-if __name__ == '__main__':
-    arr = [98, 5, 3, 1, 2, 24, 12, 56, 15]
+def _mergesort(arr):
+    """
+    Perform a merge sort on ``arr``
 
-    print(f"Sorting: {arr})\n")
-    bubble_sort(arr.copy())
-    selection_sort(arr.copy())
-    insertion_sort(arr.copy())
-    quicksort(arr.copy())
+    1. Break down the list into individual components.
+    2. Compare left and right cursors with who is smaller
+    3. Progress through until the end.
+
+    Parameters
+    ----------
+    arr
+
+    Returns
+    -------
+    list:
+        The sorted ``arr``.
+    """
+    if len(arr) > 1:
+        mid = len(arr) // 2
+        left = arr[:mid]
+        right = arr[mid:]
+
+        _mergesort(left)
+        _mergesort(right)
+
+        i = 0
+        j = 0
+        k = 0
+
+        while i < len(left) and j < len(right):
+            if left[i] < right[j]:
+                arr[k] = left[i]
+                i += 1
+            else:
+                arr[k] = right[j]
+                j += 1
+            k += 1
+
+        while i < len(left):
+            arr[k] = left[i]
+            i += 1
+            k += 1
+
+        while j < len(right):
+            arr[k] = right[j]
+            j += 1
+            k += 1
+
+
+def mergesort(arr):
+    """Perform the merge sort recursion."""
+    _mergesort(arr)
+    print(f"Merge Sorted array: {arr}")
+    return arr
+
+
+if __name__ == '__main__':
+    # arr = [98, 5, 3, 1, 2, 24, 12, 56, 15]
+    from random import sample
+    arr = sample(range(100), 10)
+    _sorted = sorted(arr.copy())
+
+    print(f"Sorting: {arr})")
+    print(f"Sorted: {_sorted}\n")
+    assert bubble_sort(arr.copy()) == _sorted
+    assert selection_sort(arr.copy()) == _sorted
+    assert insertion_sort(arr.copy()) == _sorted
+    assert quicksort(arr.copy()) == _sorted
+    assert mergesort(arr.copy()) == _sorted
