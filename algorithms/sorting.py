@@ -82,10 +82,10 @@ def insertion_sort(arr=None):
 
 def partition(xs, start, end):
     """
-    The partioner needed for ``quicksort``
+    The partioner needed for ``quick_sort``
     Borrowed from:
     https://www.codementor.io/@garethdwyer/
-        quicksort-tutorial-python-implementation-with-line-by-line-explanation-p9h7jd3r6
+        quick_sort-tutorial-python-implementation-with-line-by-line-explanation-p9h7jd3r6
     """
     follower = leader = start
     pivot_value = xs[end]
@@ -99,7 +99,7 @@ def partition(xs, start, end):
 
 
 def _quicksort(xs, start, end):
-    """The quicksort recursive algorithm."""
+    """The quick_sort recursive algorithm."""
     if start >= end:
         return
 
@@ -110,7 +110,7 @@ def _quicksort(xs, start, end):
 
 
 def quicksort(xs):
-    """The public quicksort method."""
+    """The public quick_sort method."""
     a = _quicksort(xs, 0, len(xs) - 1)
     print(f"Quick Sorted array: {a}")
     return a
