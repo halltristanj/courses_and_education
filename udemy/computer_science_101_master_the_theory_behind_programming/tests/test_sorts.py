@@ -9,6 +9,7 @@ import logging
 import pytest
 from random import sample
 
+
 @pytest.fixture(scope="function")
 def create_list():
     list_to_sort = sample(range(0, 100), 11)
