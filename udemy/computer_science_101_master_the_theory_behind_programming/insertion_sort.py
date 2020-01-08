@@ -4,6 +4,10 @@ insertion_sort.py
 Performs an Insertion Sort
 """
 
+import logging
+
+LOGGER = logging.getLogger(__name__)
+
 
 def insertion_sort(arr=None):
     """
@@ -29,7 +33,7 @@ def insertion_sort(arr=None):
             j -= 1
 
         arr[j + 1] = item_to_insert
-    print(f"Insertion Sorted array: {arr}")
+    LOGGER.info(f"Insertion Sorted array: {arr}")
     return arr
 
 
@@ -38,6 +42,6 @@ if __name__ == "__main__":
     arr = sample(range(100), 10)
     _sorted = sorted(arr.copy())
 
-    print(f"Sorting: {arr})")
-    print(f"Sorted: {_sorted}\n")
+    LOGGER.info(f"Sorting: {arr})")
+    LOGGER.info(f"Sorted: {_sorted}\n")
     assert insertion_sort(arr.copy()) == _sorted

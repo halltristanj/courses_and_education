@@ -4,6 +4,9 @@ bubble_sort.py
 Perform a Bubble Sort
 """
 
+import logging
+
+LOGGER = logging.getLogger(__name__)
 
 def bubble_sort(arr):
     """The Bubble Sort algorithm"""
@@ -14,7 +17,7 @@ def bubble_sort(arr):
             if arr[i + 1] < arr[i]:
                 arr[i], arr[i + 1] = arr[i + 1], arr[i]
                 is_sorted = True
-    print(f"Bubble Sort: {arr}")
+    LOGGER.info(f"Bubble Sort: {arr}")
     return arr
 
 
@@ -23,6 +26,6 @@ if __name__ == "__main__":
     arr = sample(range(100), 10)
     _sorted = sorted(arr.copy())
 
-    print(f"Sorting: {arr})")
-    print(f"Sorted: {_sorted}\n")
+    LOGGER.info(f"Sorting: {arr})")
+    LOGGER.info(f"Sorted: {_sorted}\n")
     assert bubble_sort(arr.copy()) == _sorted

@@ -4,6 +4,10 @@ selection_sort.py
 Perform a selection sort
 """
 
+import logging
+
+LOGGER = logging.getLogger(__name__)
+
 
 def selection_sort(arr=None):
     """
@@ -26,7 +30,7 @@ def selection_sort(arr=None):
             if arr[j] < arr[low_index]:
                 low_index = j
         arr[i], arr[low_index] = arr[low_index], arr[i]
-    print(f"Selection Sorted array: {arr}")
+    LOGGER.info(f"Selection Sorted array: {arr}")
     return arr
 
 
@@ -35,6 +39,6 @@ if __name__ == "__main__":
     arr = sample(range(100), 10)
     _sorted = sorted(arr.copy())
 
-    print(f"Sorting: {arr})")
-    print(f"Sorted: {_sorted}\n")
+    LOGGER.info(f"Sorting: {arr})")
+    LOGGER.info(f"Sorted: {_sorted}\n")
     assert selection_sort(arr.copy()) == _sorted

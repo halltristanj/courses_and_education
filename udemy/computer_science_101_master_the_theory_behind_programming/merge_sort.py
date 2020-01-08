@@ -4,6 +4,10 @@ merge_sort.py
 Performs a Merge Sort
 """
 
+import logging
+
+LOGGER = logging.getLogger(__name__)
+
 
 def _merge_sort(arr):
     """
@@ -57,7 +61,7 @@ def _merge_sort(arr):
 def merge_sort(arr):
     """Perform the merge sort recursion."""
     _merge_sort(arr)
-    print(f"Merge Sorted array: {arr}")
+    LOGGER.info(f"Merge Sorted array: {arr}")
     return arr
 
 
@@ -66,6 +70,6 @@ if __name__ == '__main__':
     arr = sample(range(100), 10)
     _sorted = sorted(arr.copy())
 
-    print(f"Sorting: {arr})")
-    print(f"Sorted: {_sorted}\n")
+    LOGGER.info(f"Sorting: {arr})")
+    LOGGER.info(f"Sorted: {_sorted}\n")
     assert merge_sort(arr.copy()) == _sorted
