@@ -17,6 +17,7 @@ def bubble_sort(arr):
     print(f"Bubble Sort: {arr}")
     return arr
 
+
 if __name__ == "__main__":
     from random import sample
     arr = sample(range(100), 10)
