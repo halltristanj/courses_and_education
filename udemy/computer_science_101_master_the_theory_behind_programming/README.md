@@ -107,15 +107,15 @@ I've enrolled in this to gain another perspective on these materials.
 </details>
 
 <details>
-<summary>[] Section 7: Trees</summary>
+<summary>[x] Section 7: Trees</summary>
 
-- [ ] 62. Trees
-- [ ] 63. Binary Search Trees
-- [ ] 64. Binary Search Tree Run Times
-- [ ] 65. Tree Notes
-- [ ] Quiz 9: Tree Quiz
-- [ ] 66. Tree Traversals
-- [ ] 67. Tree Real World Example
+- [x] 62. Trees
+- [x] 63. Binary Search Trees
+- [x] 64. Binary Search Tree Run Times
+- [x] 65. Tree Notes
+- [x] Quiz 9: Tree Quiz
+- [x] 66. Tree Traversals
+- [x] 67. Tree Real World Example
 </details>
 
 <details>
