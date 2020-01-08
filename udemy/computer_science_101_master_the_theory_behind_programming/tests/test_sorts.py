@@ -21,25 +21,25 @@ def create_list():
 
 def test_bubble_sort(create_list):
     """Test the bubble sort algorithm"""
-    from .bubble_sort import bubble_sort
+    from ..bubble_sort import bubble_sort
     assert bubble_sort(create_list["list"]) == create_list["sorted_list"]
 
 
 def test_insertion_sort(create_list):
     """Test the insertion sort algorithm"""
-    from .insertion_sort import insertion_sort
+    from ..insertion_sort import insertion_sort
     assert insertion_sort(create_list["list"]) == create_list["sorted_list"]
 
 
 def test_merge_sort(create_list):
-    from .merge_sort import merge_sort
+    from ..merge_sort import merge_sort
     assert merge_sort(create_list["list"]) == create_list["sorted_list"]
 
 
 def test_selection_sort(create_list):
-    from .selection_sort import selection_sort
+    from ..selection_sort import selection_sort
     assert selection_sort(create_list["list"]) == create_list["sorted_list"]
 
 
 if __name__ == "__main__":
-    pytest.main(args=[__file__, "-v"])
+    pytest.main(args=[__file__, "-vv"])
