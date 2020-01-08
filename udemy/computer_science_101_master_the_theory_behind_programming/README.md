@@ -119,12 +119,12 @@ I've enrolled in this to gain another perspective on these materials.
 </details>
 
 <details>
-<summary>[] Section 8: Heaps</summary>
+<summary>[x] Section 8: Heaps</summary>
 
-- [ ] 68. Heaps Introduction
-- [ ] 69. Heap Analysis
-- [ ] 70. Heaps Real World Examples
-- [ ] 71. Heap Notes
+- [x] 68. Heaps Introduction
+- [x] 69. Heap Analysis
+- [x] 70. Heaps Real World Examples
+- [x] 71. Heap Notes
 </details>
 
 <details>
