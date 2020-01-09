@@ -5,6 +5,8 @@ All my learnings in Java.
 ## Headfirst Design Patterns
 Status: :pause_button: Temporary Break
 
+[Local Progress](./headfirst_design_patterns) | [O'Reilly Book](http://shop.oreilly.com/product/9780596007126.do)
+
 ## Learn Java Programming Crash Course by Tim Buchalka
 Status: :heavy_check_mark: Complete
 
