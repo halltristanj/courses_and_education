@@ -3,6 +3,8 @@ Course code/material for Docker Crash Course for Busy DevOps and Developers on U
 While I am very familiar with Docker, I hope this course will expand my knowledge more on using
 docker networks for multiple web apps and CI pipelines.
 
+Test
+
 # Progress
 :hourglass_flowing_sand: In Progress
 
