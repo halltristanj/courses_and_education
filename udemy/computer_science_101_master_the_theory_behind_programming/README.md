@@ -1,11 +1,13 @@
 Code/etc for my lessons in Computer Science 101: Master the Theory Behind Programming by Kurt Anderson on Udemy.
 
-This class should help me furhter understand CS concepts from lists to heaps, trees, and various sorting algorithms. 
+This class should help me further understand CS concepts from lists to heaps, trees, and various sorting algorithms.
 
 I've enrolled in this to gain another perspective on these materials.
 
 # Progress
-:hourglass_flowing_sand: Class is in Session
+:heavy_check_mark: Complete
+
+[Certificate of Awesomeness :tm:](certificate.pdf)
 
 # Sections
 <details>
@@ -128,28 +130,28 @@ I've enrolled in this to gain another perspective on these materials.
 </details>
 
 <details>
-<summary>[] Section 9: Graphs</summary>
+<summary>[x] Section 9: Graphs</summary>
 
-- [ ] 72. Introduction to Graphs
-- [ ] 73. Basic Types of Graphs
-- [ ] 74. Graph Terminology
-- [ ] 75. Graph Terminology Summary
-- [ ] 76. Depth First Search
-- [ ] 77. Breadth First Search
-- [ ] 78. BFS and DFS Run Times
+- [x] 72. Introduction to Graphs
+- [x] 73. Basic Types of Graphs
+- [x] 74. Graph Terminology
+- [x] 75. Graph Terminology Summary
+- [x] 76. Depth First Search
+- [x] 77. Breadth First Search
+- [x] 78. BFS and DFS Run Times
 </details>
 
 <details>
-<summary>[] Section 10: Conclusion</summary>
+<summary>[x] Section 10: Conclusion</summary>
 
-- [ ] 79. Thank You!
+- [x] 79. Thank You!
 </details>
 
 <details>
-<summary>[] Section 11: Bonus</summary>
+<summary>[x] Section 11: Bonus</summary>
 
-- [ ] 80. Binary to Hex and Back
-- [ ] 81. Decimal to Hex and Back
-- [ ] 82. Find Max Timing Problem
-- [ ] 83. Bonus Lecture
+- [x] 80. Binary to Hex and Back
+- [x] 81. Decimal to Hex and Back
+- [x] 82. Find Max Timing Problem
+- [x] 83. Bonus Lecture
 </details>

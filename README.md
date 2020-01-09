@@ -1,7 +1,9 @@
 # Courses
-I'm always striving to increase my knowledge in programming languages I know or would like to know more about. This repo holds code from my classes I am taking (or have taken) on Udemy/other platforms.
+I'm always striving to increase my knowledge in programming languages I know or would like to know more about.  
+This repo holds code from my classes I am taking (or have taken) on Udemy/other platforms.
 
-This is not an exhaustive list of languages/techs/platforms I know. This is just a repo for course material. Please refer to my [resume](Hall_Resume_Software_Engineer.pdf) for updated information. 
+This is not an exhaustive list of languages/techs/platforms I know.  
+This is just a repo for course material. Please refer to my [resume](Hall_Resume_Software_Engineer.pdf) for updated information.
 
 Note: This is mixed code between what is provided in the course and what I have added.
 
@@ -10,7 +12,7 @@ Common algorithms that I've written personally from scratch for practice.
 
 ## Udemy (ordered by in progress)
 ### Computer Science 101: Master the Theory Behind Computer Programming
-Status: :hourglass_flowing_sand: In progress
+Status: :heavy_check_mark: Complete
 
 [Local Progress](https://github.com/halltristanj/courses_and_education/tree/master/udemy/computer_science_101_master_the_theory_behind_programming) | [Udemy Link](https://cisco.udemy.com/course/computer-science-101-master-the-theory-behind-programming/)
 

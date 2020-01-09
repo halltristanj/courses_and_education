@@ -1,8 +1,9 @@
 Code for my lessons on Learn Java Programming Crash Course by Tim Buchalka.
 
-Progress: COMPLETE
+# Progress
+:heavy_check_mark: Complete
 
-[Certificate](certificate.pdf)
+[Certificate of Awesomeness :tm:](certificate.pdf)
 
 <details>
   <summary>[x] Section 1: Introduction and Course Information</summary>

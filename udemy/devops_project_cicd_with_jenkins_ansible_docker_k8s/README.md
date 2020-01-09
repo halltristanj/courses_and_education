@@ -18,7 +18,7 @@ This tutorial gives me exposure to:
 # Progress
 :heavy_check_mark: Complete
 
-[Certificate](certificate.pdf)
+[Certificate of Awesomeness :tm:](certificate.pdf)
 
 <details>
 <summary>[x] Section 1: Introduction</summary>
