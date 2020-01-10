@@ -1,1 +1,2 @@
-docker/DockerCookbook/1.16/wp-content/* linguist-detectable=false
+docker/DockerCookbook/1.16/wp-content/*.php linguist-detectable=false
+docker/DockerCookbook/1.16/wp-content/*.css linguist-detectable=false
