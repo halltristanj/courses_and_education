@@ -4,4 +4,4 @@
 *.CSS linguist-detectable=false
 *.html linguist-detectable=false
 *.xml linguist-detectable=false
-java/learn_java_programming_crash_course/*.java linguist-detectable=false
+java/learn_java_programming_crash_course/* linguist-detectable=false
