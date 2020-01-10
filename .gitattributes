@@ -7,3 +7,4 @@
 *.java linguist-detectable=false
 java/learn_java_programming_crash_course/* linguist-vendored
 java/headfirst_design_patterns/Head-First-Design-Patterns-master/* linguist-vendored
+docker/DockerCookbook/1.16/wp-content/* linguist-vendored
