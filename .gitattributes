@@ -1,3 +1,4 @@
 *.php linguist-detectable=false
+*.PHP linguist-detectable=false
 *.css linguist-detectable=false
-# java/learn_java_programming_crash_course/*.java linguist-detectable=false
+*.CSS linguist-detectable=false
