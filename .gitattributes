@@ -4,5 +4,6 @@
 *.CSS linguist-detectable=false
 *.html linguist-detectable=false
 *.xml linguist-detectable=false
+*.java linguist-detectable=false
 java/learn_java_programming_crash_course/* linguist-vendored
 java/headfirst_design_patterns/Head-First-Design-Patterns-master/* linguist-vendored
