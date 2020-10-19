@@ -569,7 +569,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("super-rentals/app")["default"].create({"name":"super-rentals","version":"0.0.0+ca67a2b6"});
+            require("super-rentals/app")["default"].create({"name":"super-rentals","version":"0.0.0+27801718"});
           }
         
 //# sourceMappingURL=super-rentals.map
