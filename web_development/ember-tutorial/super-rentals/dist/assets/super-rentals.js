@@ -54,6 +54,69 @@
     }
   });
 });
+;define("super-rentals/components/jumbo", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  const __COLOCATED_TEMPLATE__ = Ember.HTMLBars.template(
+  /*
+    <div class="jumbo">
+    <div class="right tomster"></div>
+    {{yield}}
+  </div>
+  */
+  {
+    id: "w8JA4nFq",
+    block: "{\"symbols\":[\"&default\"],\"statements\":[[9,\"div\",true],[12,\"class\",\"jumbo\",null],[10],[1,1,0,0,\"\\n  \"],[9,\"div\",true],[12,\"class\",\"right tomster\",null],[10],[11],[1,1,0,0,\"\\n  \"],[16,1,null],[1,1,0,0,\"\\n\"],[11]],\"hasEval\":false,\"upvars\":[]}",
+    meta: {
+      moduleName: "super-rentals/components/jumbo.hbs"
+    }
+  });
+
+  var _default = Ember._setComponentTemplate(__COLOCATED_TEMPLATE__, Ember._templateOnlyComponent());
+
+  _exports.default = _default;
+});
+;define("super-rentals/components/nav-bar", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  const __COLOCATED_TEMPLATE__ = Ember.HTMLBars.template(
+  /*
+    <nav class="menu">
+    <LinkTo @route="index" class="menu-index">
+      <h1>SuperRentals</h1>
+    </LinkTo>
+    <div class="links">
+      <LinkTo @route="about" class="menu-about">
+        About
+      </LinkTo>
+      <LinkTo @route="contact" class="menu-contact">
+        Contact
+      </LinkTo>
+    </div>
+  </nav>
+  */
+  {
+    id: "FZIPLYi6",
+    block: "{\"symbols\":[],\"statements\":[[9,\"nav\",true],[12,\"class\",\"menu\",null],[10],[1,1,0,0,\"\\n  \"],[7,\"link-to\",[[23,\"class\",\"menu-index\",null]],[[\"@route\"],[\"index\"]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"\\n    \"],[9,\"h1\",true],[10],[1,1,0,0,\"SuperRentals\"],[11],[1,1,0,0,\"\\n  \"]],\"parameters\":[]}]]],[1,1,0,0,\"\\n  \"],[9,\"div\",true],[12,\"class\",\"links\",null],[10],[1,1,0,0,\"\\n    \"],[7,\"link-to\",[[23,\"class\",\"menu-about\",null]],[[\"@route\"],[\"about\"]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"\\n      About\\n    \"]],\"parameters\":[]}]]],[1,1,0,0,\"\\n    \"],[7,\"link-to\",[[23,\"class\",\"menu-contact\",null]],[[\"@route\"],[\"contact\"]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"\\n      Contact\\n    \"]],\"parameters\":[]}]]],[1,1,0,0,\"\\n  \"],[11],[1,1,0,0,\"\\n\"],[11]],\"hasEval\":false,\"upvars\":[]}",
+    meta: {
+      moduleName: "super-rentals/components/nav-bar.hbs"
+    }
+  });
+
+  var _default = Ember._setComponentTemplate(__COLOCATED_TEMPLATE__, Ember._templateOnlyComponent());
+
+  _exports.default = _default;
+});
 ;define("super-rentals/components/welcome-page", ["exports", "ember-welcome-page/components/welcome-page"], function (_exports, _welcomePage) {
   "use strict";
 
@@ -368,10 +431,28 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "fNAIJECx",
-    "block": "{\"symbols\":[],\"statements\":[[9,\"div\",true],[12,\"class\",\"jumbo\",null],[10],[1,1,0,0,\"\\n  \"],[9,\"div\",true],[12,\"class\",\"right tomster\",null],[10],[11],[1,1,0,0,\"\\n  \"],[9,\"h2\",true],[10],[1,1,0,0,\"About Super Rentals\"],[11],[1,1,0,0,\"\\n  \"],[9,\"p\",true],[10],[1,1,0,0,\"\\n    The Super Rentals website is a delightful project created to explore Ember.\\n    By building a property rental site, we can simultaneously imagine traveling\\n    AND building Ember applications.\\n  \"],[11],[1,1,0,0,\"\\n  \"],[7,\"link-to\",[[23,\"class\",\"button\",null]],[[\"@route\"],[\"contact\"]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"Contact Us\"]],\"parameters\":[]}]]],[1,1,0,0,\"\\n\"],[11]],\"hasEval\":false,\"upvars\":[]}",
+    "id": "7d+AfjRa",
+    "block": "{\"symbols\":[],\"statements\":[[7,\"jumbo\",[],[[],[]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"\\n  \"],[9,\"h2\",true],[10],[1,1,0,0,\"About Super Rentals\"],[11],[1,1,0,0,\"\\n  \"],[9,\"p\",true],[10],[1,1,0,0,\"\\n    The Super Rentals website is a delightful project created to explore Ember.\\n    By building a property rental site, we can simultaneously imagine traveling\\n    AND building Ember applications.\\n  \"],[11],[1,1,0,0,\"\\n  \"],[7,\"link-to\",[[23,\"class\",\"button\",null]],[[\"@route\"],[\"contact\"]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"Contact Us\"]],\"parameters\":[]}]]],[1,1,0,0,\"\\n\"]],\"parameters\":[]}]]]],\"hasEval\":false,\"upvars\":[]}",
     "meta": {
       "moduleName": "super-rentals/templates/about.hbs"
+    }
+  });
+
+  _exports.default = _default;
+});
+;define("super-rentals/templates/application", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  var _default = Ember.HTMLBars.template({
+    "id": "g42HC8Jg",
+    "block": "{\"symbols\":[],\"statements\":[[9,\"div\",true],[12,\"class\",\"container\",null],[10],[1,1,0,0,\"\\n  \"],[7,\"nav-bar\",[],[[],[]],null],[1,1,0,0,\"\\n  \"],[9,\"div\",true],[12,\"class\",\"body\",null],[10],[1,1,0,0,\"\\n    \"],[1,0,0,0,[31,0,0,[27,[26,1,\"CallHead\"],[]],[[31,0,0,[27,[26,0,\"CallHead\"],[]],null,null]],null]],[1,1,0,0,\"\\n  \"],[11],[1,1,0,0,\"\\n\"],[11]],\"hasEval\":false,\"upvars\":[\"-outlet\",\"component\"]}",
+    "meta": {
+      "moduleName": "super-rentals/templates/application.hbs"
     }
   });
 
@@ -386,8 +467,8 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "WwOmg7tt",
-    "block": "{\"symbols\":[],\"statements\":[[9,\"div\",true],[12,\"class\",\"jumbo\",null],[10],[1,1,0,0,\"\\n  \"],[9,\"div\",true],[12,\"class\",\"right tomster\",null],[10],[11],[1,1,0,0,\"\\n  \"],[9,\"h2\",true],[10],[1,1,0,0,\"Contact Us\"],[11],[1,1,0,0,\"\\n  \"],[9,\"p\",true],[10],[1,1,0,0,\"\\n    Super Rentals Representatives would love to help you\"],[9,\"br\",true],[10],[11],[1,1,0,0,\"\\n    choose a destination or answer any questions you may have.\\n  \"],[11],[1,1,0,0,\"\\n  \"],[9,\"address\",true],[10],[1,1,0,0,\"\\n    Super Rentals HQ\\n    \"],[9,\"p\",true],[10],[1,1,0,0,\"\\n      1212 Test Address Avenue\"],[9,\"br\",true],[10],[11],[1,1,0,0,\"\\n      Testington, OR 97233\\n    \"],[11],[1,1,0,0,\"\\n    \"],[9,\"a\",true],[12,\"href\",\"tel:503.555.1212\",null],[10],[1,1,0,0,\"+1 (503) 555-1212\"],[11],[9,\"br\",true],[10],[11],[1,1,0,0,\"\\n    \"],[9,\"a\",true],[12,\"href\",\"mailto:superrentalsrep@emberjs.com\",null],[10],[1,1,0,0,\"superrentalsrep@emberjs.com\"],[11],[1,1,0,0,\"\\n  \"],[11],[1,1,0,0,\"\\n  \"],[7,\"link-to\",[[23,\"class\",\"button\",null]],[[\"@route\"],[\"about\"]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"About\"]],\"parameters\":[]}]]],[1,1,0,0,\"\\n\"],[11]],\"hasEval\":false,\"upvars\":[]}",
+    "id": "vmf8nYOc",
+    "block": "{\"symbols\":[],\"statements\":[[7,\"jumbo\",[],[[],[]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"\\n  \"],[9,\"h2\",true],[10],[1,1,0,0,\"Contact Us\"],[11],[1,1,0,0,\"\\n  \"],[9,\"p\",true],[10],[1,1,0,0,\"\\n    Super Rentals Representatives would love to help you\"],[9,\"br\",true],[10],[11],[1,1,0,0,\"\\n    choose a destination or answer any questions you may have.\\n  \"],[11],[1,1,0,0,\"\\n  \"],[9,\"address\",true],[10],[1,1,0,0,\"\\n    Super Rentals HQ\\n    \"],[9,\"p\",true],[10],[1,1,0,0,\"\\n      1212 Test Address Avenue\"],[9,\"br\",true],[10],[11],[1,1,0,0,\"\\n      Testington, OR 97233\\n    \"],[11],[1,1,0,0,\"\\n    \"],[9,\"a\",true],[12,\"href\",\"tel:503.555.1212\",null],[10],[1,1,0,0,\"+1 (503) 555-1212\"],[11],[9,\"br\",true],[10],[11],[1,1,0,0,\"\\n    \"],[9,\"a\",true],[12,\"href\",\"mailto:superrentalsrep@emberjs.com\",null],[10],[1,1,0,0,\"superrentalsrep@emberjs.com\"],[11],[1,1,0,0,\"\\n  \"],[11],[1,1,0,0,\"\\n  \"],[7,\"link-to\",[[23,\"class\",\"button\",null]],[[\"@route\"],[\"about\"]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"About\"]],\"parameters\":[]}]]],[1,1,0,0,\"\\n\"]],\"parameters\":[]}]]]],\"hasEval\":false,\"upvars\":[]}",
     "meta": {
       "moduleName": "super-rentals/templates/contact.hbs"
     }
@@ -404,8 +485,8 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "106F/7I6",
-    "block": "{\"symbols\":[],\"statements\":[[9,\"div\",true],[12,\"class\",\"jumbo\",null],[10],[1,1,0,0,\"\\n  \"],[9,\"div\",true],[12,\"class\",\"right tomster\",null],[10],[11],[1,1,0,0,\"\\n  \"],[9,\"h2\",true],[10],[1,1,0,0,\"Welcome to Super Rentals!\"],[11],[1,1,0,0,\"\\n  \"],[9,\"p\",true],[10],[1,1,0,0,\"We hope you find exactly what you're looking for in a place to stay.\"],[11],[1,1,0,0,\"\\n  \"],[7,\"link-to\",[[23,\"class\",\"button\",null]],[[\"@route\"],[\"about\"]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"About Us\"]],\"parameters\":[]}]]],[1,1,0,0,\"\\n\"],[11]],\"hasEval\":false,\"upvars\":[]}",
+    "id": "rddYZ41o",
+    "block": "{\"symbols\":[],\"statements\":[[7,\"jumbo\",[],[[],[]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"\\n  \"],[9,\"h2\",true],[10],[1,1,0,0,\"Welcome to Super Rentals!\"],[11],[1,1,0,0,\"\\n  \"],[9,\"p\",true],[10],[1,1,0,0,\"We hope you find exactly what you're looking for in a place to stay.\"],[11],[1,1,0,0,\"\\n  \"],[7,\"link-to\",[[23,\"class\",\"button\",null]],[[\"@route\"],[\"about\"]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"About Us\"]],\"parameters\":[]}]]],[1,1,0,0,\"\\n\"]],\"parameters\":[]}]]]],\"hasEval\":false,\"upvars\":[]}",
     "meta": {
       "moduleName": "super-rentals/templates/index.hbs"
     }
