@@ -81,6 +81,60 @@
 
   _exports.default = _default;
 });
+;define("super-rentals/components/map", ["exports", "@glimmer/component", "super-rentals/config/environment"], function (_exports, _component, _environment) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  const __COLOCATED_TEMPLATE__ = Ember.HTMLBars.template(
+  /*
+    <div class="map">
+    <img
+      alt="Map image at coordinates {{@lat}},{{@lng}}"
+      ...attributes
+      src={{this.src}}
+    width={{@width}} height={{@height}}
+    >
+  </div>
+  */
+  {
+    id: "oabuXKHB",
+    block: "{\"symbols\":[\"@lng\",\"@lat\",\"&attrs\",\"@width\",\"@height\"],\"statements\":[[9,\"div\",true],[12,\"class\",\"map\",null],[10],[1,1,0,0,\"\\n  \"],[9,\"img\",false],[14,\"alt\",[32,[\"Map image at coordinates \",[27,[24,2],[]],\",\",[27,[24,1],[]]]],null],[15,3],[14,\"src\",[27,[24,0],[\"src\"]],null],[14,\"width\",[27,[24,4],[]],null],[14,\"height\",[27,[24,5],[]],null],[10],[11],[1,1,0,0,\"\\n\"],[11]],\"hasEval\":false,\"upvars\":[]}",
+    meta: {
+      moduleName: "super-rentals/components/map.hbs"
+    }
+  });
+
+  const MAPBOX_API = 'https://api.mapbox.com/styles/v1/mapbox/streets-v11/static';
+
+  class MapComponent extends _component.default {
+    get src() {
+      let {
+        lng,
+        lat,
+        width,
+        height,
+        zoom
+      } = this.args;
+      let coordinates = `${lng},${lat},${zoom}`;
+      let dimensions = `${width}x${height}`;
+      let accessToken = `access_token=${this.token}`;
+      return `${MAPBOX_API}/${coordinates}/${dimensions}@2x?${accessToken}`;
+    }
+
+    get token() {
+      return encodeURIComponent(_environment.default.MAPBOX_TOKEN);
+    }
+
+  }
+
+  _exports.default = MapComponent;
+
+  Ember._setComponentTemplate(__COLOCATED_TEMPLATE__, MapComponent);
+});
 ;define("super-rentals/components/nav-bar", ["exports"], function (_exports) {
   "use strict";
 
@@ -147,11 +201,19 @@
         <span>Number of bedrooms:</span> 15
       </div>
     </div>
+    <Map
+      @lat="37.7749"
+      @lng="-122.4194"
+      @zoom="9"
+      @width="150"
+      @height="150"
+      alt="A map of Grand Old Mansion"
+    />
   </article>
   */
   {
-    id: "8ZxLIoFu",
-    block: "{\"symbols\":[],\"statements\":[[9,\"article\",true],[12,\"class\",\"rental\",null],[10],[1,1,0,0,\"\\n  \"],[7,\"rental/image\",[[23,\"src\",\"https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg\",null],[23,\"alt\",\"A picture of Grand Old Mansion\",null]],[[],[]],null],[1,1,0,0,\"\\n  \"],[9,\"div\",true],[12,\"class\",\"details\",null],[10],[1,1,0,0,\"\\n    \"],[9,\"h3\",true],[10],[1,1,0,0,\"Grand Old Mansion\"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail owner\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Owner:\"],[11],[1,1,0,0,\" Veruca Salt\\n    \"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail type\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Type:\"],[11],[1,1,0,0,\" Standalone\\n    \"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail location\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Location:\"],[11],[1,1,0,0,\" San Francisco\\n    \"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail bedrooms\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Number of bedrooms:\"],[11],[1,1,0,0,\" 15\\n    \"],[11],[1,1,0,0,\"\\n  \"],[11],[1,1,0,0,\"\\n\"],[11]],\"hasEval\":false,\"upvars\":[]}",
+    id: "zx8hu4HC",
+    block: "{\"symbols\":[],\"statements\":[[9,\"article\",true],[12,\"class\",\"rental\",null],[10],[1,1,0,0,\"\\n  \"],[7,\"rental/image\",[[23,\"src\",\"https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg\",null],[23,\"alt\",\"A picture of Grand Old Mansion\",null]],[[],[]],null],[1,1,0,0,\"\\n  \"],[9,\"div\",true],[12,\"class\",\"details\",null],[10],[1,1,0,0,\"\\n    \"],[9,\"h3\",true],[10],[1,1,0,0,\"Grand Old Mansion\"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail owner\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Owner:\"],[11],[1,1,0,0,\" Veruca Salt\\n    \"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail type\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Type:\"],[11],[1,1,0,0,\" Standalone\\n    \"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail location\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Location:\"],[11],[1,1,0,0,\" San Francisco\\n    \"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail bedrooms\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Number of bedrooms:\"],[11],[1,1,0,0,\" 15\\n    \"],[11],[1,1,0,0,\"\\n  \"],[11],[1,1,0,0,\"\\n  \"],[7,\"map\",[[23,\"alt\",\"A map of Grand Old Mansion\",null]],[[\"@lat\",\"@lng\",\"@zoom\",\"@width\",\"@height\"],[\"37.7749\",\"-122.4194\",\"9\",\"150\",\"150\"]],null],[1,1,0,0,\"\\n\"],[11]],\"hasEval\":false,\"upvars\":[]}",
     meta: {
       moduleName: "super-rentals/components/rental.hbs"
     }
@@ -673,7 +735,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("super-rentals/app")["default"].create({"name":"super-rentals","version":"0.0.0+27801718"});
+            require("super-rentals/app")["default"].create({"name":"super-rentals","version":"0.0.0+c7fcc0a2"});
           }
         
 //# sourceMappingURL=super-rentals.map
