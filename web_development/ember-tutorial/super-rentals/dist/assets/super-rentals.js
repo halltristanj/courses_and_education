@@ -117,6 +117,76 @@
 
   _exports.default = _default;
 });
+;define("super-rentals/components/rental", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  const __COLOCATED_TEMPLATE__ = Ember.HTMLBars.template(
+  /*
+    <article class="rental">
+    <Rental::Image
+      src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+      alt="A picture of Grand Old Mansion"
+    />
+    <div class="details">
+      <h3>Grand Old Mansion</h3>
+      <div class="detail owner">
+        <span>Owner:</span> Veruca Salt
+      </div>
+      <div class="detail type">
+        <span>Type:</span> Standalone
+      </div>
+      <div class="detail location">
+        <span>Location:</span> San Francisco
+      </div>
+      <div class="detail bedrooms">
+        <span>Number of bedrooms:</span> 15
+      </div>
+    </div>
+  </article>
+  */
+  {
+    id: "8ZxLIoFu",
+    block: "{\"symbols\":[],\"statements\":[[9,\"article\",true],[12,\"class\",\"rental\",null],[10],[1,1,0,0,\"\\n  \"],[7,\"rental/image\",[[23,\"src\",\"https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg\",null],[23,\"alt\",\"A picture of Grand Old Mansion\",null]],[[],[]],null],[1,1,0,0,\"\\n  \"],[9,\"div\",true],[12,\"class\",\"details\",null],[10],[1,1,0,0,\"\\n    \"],[9,\"h3\",true],[10],[1,1,0,0,\"Grand Old Mansion\"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail owner\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Owner:\"],[11],[1,1,0,0,\" Veruca Salt\\n    \"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail type\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Type:\"],[11],[1,1,0,0,\" Standalone\\n    \"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail location\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Location:\"],[11],[1,1,0,0,\" San Francisco\\n    \"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail bedrooms\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Number of bedrooms:\"],[11],[1,1,0,0,\" 15\\n    \"],[11],[1,1,0,0,\"\\n  \"],[11],[1,1,0,0,\"\\n\"],[11]],\"hasEval\":false,\"upvars\":[]}",
+    meta: {
+      moduleName: "super-rentals/components/rental.hbs"
+    }
+  });
+
+  var _default = Ember._setComponentTemplate(__COLOCATED_TEMPLATE__, Ember._templateOnlyComponent());
+
+  _exports.default = _default;
+});
+;define("super-rentals/components/rental/image", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  const __COLOCATED_TEMPLATE__ = Ember.HTMLBars.template(
+  /*
+    <div class="image">
+    <img ...attributes>
+  </div>
+  */
+  {
+    id: "CAgusRfu",
+    block: "{\"symbols\":[\"&attrs\"],\"statements\":[[9,\"div\",true],[12,\"class\",\"image\",null],[10],[1,1,0,0,\"\\n  \"],[9,\"img\",false],[15,1],[10],[11],[1,1,0,0,\"\\n\"],[11]],\"hasEval\":false,\"upvars\":[]}",
+    meta: {
+      moduleName: "super-rentals/components/rental/image.hbs"
+    }
+  });
+
+  var _default = Ember._setComponentTemplate(__COLOCATED_TEMPLATE__, Ember._templateOnlyComponent());
+
+  _exports.default = _default;
+});
 ;define("super-rentals/components/welcome-page", ["exports", "ember-welcome-page/components/welcome-page"], function (_exports, _welcomePage) {
   "use strict";
 
@@ -485,8 +555,8 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "rddYZ41o",
-    "block": "{\"symbols\":[],\"statements\":[[7,\"jumbo\",[],[[],[]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"\\n  \"],[9,\"h2\",true],[10],[1,1,0,0,\"Welcome to Super Rentals!\"],[11],[1,1,0,0,\"\\n  \"],[9,\"p\",true],[10],[1,1,0,0,\"We hope you find exactly what you're looking for in a place to stay.\"],[11],[1,1,0,0,\"\\n  \"],[7,\"link-to\",[[23,\"class\",\"button\",null]],[[\"@route\"],[\"about\"]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"About Us\"]],\"parameters\":[]}]]],[1,1,0,0,\"\\n\"]],\"parameters\":[]}]]]],\"hasEval\":false,\"upvars\":[]}",
+    "id": "cuBxnA4m",
+    "block": "{\"symbols\":[],\"statements\":[[7,\"jumbo\",[],[[],[]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"\\n  \"],[9,\"h2\",true],[10],[1,1,0,0,\"Welcome to Super Rentals!\"],[11],[1,1,0,0,\"\\n  \"],[9,\"p\",true],[10],[1,1,0,0,\"We hope you find exactly what you're looking for in a place to stay.\"],[11],[1,1,0,0,\"\\n  \"],[7,\"link-to\",[[23,\"class\",\"button\",null]],[[\"@route\"],[\"about\"]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"About Us\"]],\"parameters\":[]}]]],[1,1,0,0,\"\\n\"]],\"parameters\":[]}]]],[1,1,0,0,\"\\n\\n\"],[9,\"div\",true],[12,\"class\",\"rentals\",null],[10],[1,1,0,0,\"\\n  \"],[9,\"ul\",true],[12,\"class\",\"results\",null],[10],[1,1,0,0,\"\\n    \"],[9,\"li\",true],[10],[7,\"rental\",[],[[],[]],null],[11],[1,1,0,0,\"\\n    \"],[9,\"li\",true],[10],[7,\"rental\",[],[[],[]],null],[11],[1,1,0,0,\"\\n    \"],[9,\"li\",true],[10],[7,\"rental\",[],[[],[]],null],[11],[1,1,0,0,\"\\n  \"],[11],[1,1,0,0,\"\\n\"],[11]],\"hasEval\":false,\"upvars\":[]}",
     "meta": {
       "moduleName": "super-rentals/templates/index.hbs"
     }

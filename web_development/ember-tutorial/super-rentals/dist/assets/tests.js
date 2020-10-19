@@ -71,6 +71,57 @@ define("super-rentals/tests/integration/components/jumbo-test", ["qunit", "ember
     });
   });
 });
+define("super-rentals/tests/integration/components/rental-test", ["qunit", "ember-qunit", "@ember/test-helpers"], function (_qunit, _emberQunit, _testHelpers) {
+  "use strict";
+
+  (0, _qunit.module)('Integration | Component | rental', function (hooks) {
+    (0, _emberQunit.setupRenderingTest)(hooks);
+    (0, _qunit.test)('it renders information about a rental property', async function (assert) {
+      await (0, _testHelpers.render)(Ember.HTMLBars.template(
+      /*
+        <Rental />
+      */
+      {
+        id: "JduD6Q+w",
+        block: "{\"symbols\":[],\"statements\":[[7,\"rental\",[],[[],[]],null]],\"hasEval\":false,\"upvars\":[]}",
+        meta: {}
+      }));
+      assert.dom('article').hasClass('rental');
+      assert.dom('article h3').hasText('Grand Old Mansion');
+      assert.dom('article .detail.owner').includesText('Veruca Salt');
+      assert.dom('article .detail.type').includesText('Standalone');
+      assert.dom('article .detail.location').includesText('San Francisco');
+      assert.dom('article .detail.bedrooms').includesText('15');
+      assert.dom('article .image').exists();
+    });
+  });
+});
+define("super-rentals/tests/integration/components/rental/image-test", ["qunit", "ember-qunit", "@ember/test-helpers"], function (_qunit, _emberQunit, _testHelpers) {
+  "use strict";
+
+  (0, _qunit.module)('Integration | Component | rental/image', function (hooks) {
+    (0, _emberQunit.setupRenderingTest)(hooks);
+    (0, _qunit.test)('it renders the given image', async function (assert) {
+      await (0, _testHelpers.render)(Ember.HTMLBars.template(
+      /*
+        
+            <Rental::Image
+              src="/assets/images/teaching-tomster.png"
+              alt="Teaching Tomster"
+            />
+          
+      */
+      {
+        id: "QI3G9Ke4",
+        block: "{\"symbols\":[],\"statements\":[[1,1,0,0,\"\\n      \"],[7,\"rental/image\",[[23,\"src\",\"/assets/images/teaching-tomster.png\",null],[23,\"alt\",\"Teaching Tomster\",null]],[[],[]],null],[1,1,0,0,\"\\n    \"]],\"hasEval\":false,\"upvars\":[]}",
+        meta: {}
+      }));
+      assert.dom('.image').exists();
+      assert.dom('.image img').hasAttribute('src', '/assets/images/teaching-tomster.png');
+      assert.dom('.image img').hasAttribute('alt', 'Teaching Tomster');
+    });
+  });
+});
 define("super-rentals/tests/test-helper", ["super-rentals/app", "super-rentals/config/environment", "@ember/test-helpers", "ember-qunit"], function (_app, _environment, _testHelpers, _emberQunit) {
   "use strict";
 
