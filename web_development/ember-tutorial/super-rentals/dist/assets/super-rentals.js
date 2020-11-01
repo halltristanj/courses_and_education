@@ -183,37 +183,37 @@
   /*
     <article class="rental">
     <Rental::Image
-      src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
-      alt="A picture of Grand Old Mansion"
+      src={{@rental.image}}
+      alt="A picture of {{@rental.title}}"
     />
     <div class="details">
-      <h3>Grand Old Mansion</h3>
+      <h3>{{@rental.title}}</h3>
       <div class="detail owner">
-        <span>Owner:</span> Veruca Salt
+        <span>Owner:</span> {{@rental.owner}}
       </div>
       <div class="detail type">
-        <span>Type:</span> Standalone
+        <span>Type:</span> {{@rental.type}}
       </div>
       <div class="detail location">
-        <span>Location:</span> San Francisco
+        <span>Location:</span> {{@rental.city}}
       </div>
       <div class="detail bedrooms">
-        <span>Number of bedrooms:</span> 15
+        <span>Number of bedrooms:</span> {{@rental.bedrooms}}
       </div>
     </div>
     <Map
-      @lat="37.7749"
-      @lng="-122.4194"
+      @lat={{@rental.location.lat}}
+      @lng={{@rental.location.lng}}
       @zoom="9"
       @width="150"
       @height="150"
-      alt="A map of Grand Old Mansion"
+      alt="A map of {{@rental.title}}"
     />
   </article>
   */
   {
-    id: "zx8hu4HC",
-    block: "{\"symbols\":[],\"statements\":[[9,\"article\",true],[12,\"class\",\"rental\",null],[10],[1,1,0,0,\"\\n  \"],[7,\"rental/image\",[[23,\"src\",\"https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg\",null],[23,\"alt\",\"A picture of Grand Old Mansion\",null]],[[],[]],null],[1,1,0,0,\"\\n  \"],[9,\"div\",true],[12,\"class\",\"details\",null],[10],[1,1,0,0,\"\\n    \"],[9,\"h3\",true],[10],[1,1,0,0,\"Grand Old Mansion\"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail owner\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Owner:\"],[11],[1,1,0,0,\" Veruca Salt\\n    \"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail type\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Type:\"],[11],[1,1,0,0,\" Standalone\\n    \"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail location\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Location:\"],[11],[1,1,0,0,\" San Francisco\\n    \"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail bedrooms\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Number of bedrooms:\"],[11],[1,1,0,0,\" 15\\n    \"],[11],[1,1,0,0,\"\\n  \"],[11],[1,1,0,0,\"\\n  \"],[7,\"map\",[[23,\"alt\",\"A map of Grand Old Mansion\",null]],[[\"@lat\",\"@lng\",\"@zoom\",\"@width\",\"@height\"],[\"37.7749\",\"-122.4194\",\"9\",\"150\",\"150\"]],null],[1,1,0,0,\"\\n\"],[11]],\"hasEval\":false,\"upvars\":[]}",
+    id: "tQblP2kR",
+    block: "{\"symbols\":[\"@rental\"],\"statements\":[[9,\"article\",true],[12,\"class\",\"rental\",null],[10],[1,1,0,0,\"\\n  \"],[7,\"rental/image\",[[14,\"src\",[27,[24,1],[\"image\"]],null],[14,\"alt\",[32,[\"A picture of \",[27,[24,1],[\"title\"]]]],null]],[[],[]],null],[1,1,0,0,\"\\n  \"],[9,\"div\",true],[12,\"class\",\"details\",null],[10],[1,1,0,0,\"\\n    \"],[9,\"h3\",true],[10],[1,0,0,0,[27,[24,1],[\"title\"]]],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail owner\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Owner:\"],[11],[1,1,0,0,\" \"],[1,0,0,0,[27,[24,1],[\"owner\"]]],[1,1,0,0,\"\\n    \"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail type\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Type:\"],[11],[1,1,0,0,\" \"],[1,0,0,0,[27,[24,1],[\"type\"]]],[1,1,0,0,\"\\n    \"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail location\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Location:\"],[11],[1,1,0,0,\" \"],[1,0,0,0,[27,[24,1],[\"city\"]]],[1,1,0,0,\"\\n    \"],[11],[1,1,0,0,\"\\n    \"],[9,\"div\",true],[12,\"class\",\"detail bedrooms\",null],[10],[1,1,0,0,\"\\n      \"],[9,\"span\",true],[10],[1,1,0,0,\"Number of bedrooms:\"],[11],[1,1,0,0,\" \"],[1,0,0,0,[27,[24,1],[\"bedrooms\"]]],[1,1,0,0,\"\\n    \"],[11],[1,1,0,0,\"\\n  \"],[11],[1,1,0,0,\"\\n  \"],[7,\"map\",[[14,\"alt\",[32,[\"A map of \",[27,[24,1],[\"title\"]]]],null]],[[\"@lat\",\"@lng\",\"@zoom\",\"@width\",\"@height\"],[[27,[24,1],[\"location\",\"lat\"]],[27,[24,1],[\"location\",\"lng\"]],\"9\",\"150\",\"150\"]],null],[1,1,0,0,\"\\n\"],[11]],\"hasEval\":false,\"upvars\":[]}",
     meta: {
       moduleName: "super-rentals/components/rental.hbs"
     }
@@ -536,6 +536,45 @@
     });
   });
 });
+;define("super-rentals/routes/index", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  const COMMUNITY_CATEGORIES = ['Condo', 'Townhouse', 'Apartment'];
+
+  class IndexRoute extends Ember.Route {
+    async model() {
+      let response = await fetch('/api/rentals.json');
+      let {
+        data
+      } = await response.json();
+      debugger;
+      return data.map(model => {
+        let {
+          attributes
+        } = model;
+        let type;
+
+        if (COMMUNITY_CATEGORIES.includes(attributes.category)) {
+          type = 'Community';
+        } else {
+          type = 'Standalone';
+        }
+
+        return {
+          type,
+          ...attributes
+        };
+      });
+    }
+
+  }
+
+  _exports.default = IndexRoute;
+});
 ;define("super-rentals/serializers/-default", ["exports", "@ember-data/serializer/json"], function (_exports, _json) {
   "use strict";
 
@@ -651,8 +690,8 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "cuBxnA4m",
-    "block": "{\"symbols\":[],\"statements\":[[7,\"jumbo\",[],[[],[]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"\\n  \"],[9,\"h2\",true],[10],[1,1,0,0,\"Welcome to Super Rentals!\"],[11],[1,1,0,0,\"\\n  \"],[9,\"p\",true],[10],[1,1,0,0,\"We hope you find exactly what you're looking for in a place to stay.\"],[11],[1,1,0,0,\"\\n  \"],[7,\"link-to\",[[23,\"class\",\"button\",null]],[[\"@route\"],[\"about\"]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"About Us\"]],\"parameters\":[]}]]],[1,1,0,0,\"\\n\"]],\"parameters\":[]}]]],[1,1,0,0,\"\\n\\n\"],[9,\"div\",true],[12,\"class\",\"rentals\",null],[10],[1,1,0,0,\"\\n  \"],[9,\"ul\",true],[12,\"class\",\"results\",null],[10],[1,1,0,0,\"\\n    \"],[9,\"li\",true],[10],[7,\"rental\",[],[[],[]],null],[11],[1,1,0,0,\"\\n    \"],[9,\"li\",true],[10],[7,\"rental\",[],[[],[]],null],[11],[1,1,0,0,\"\\n    \"],[9,\"li\",true],[10],[7,\"rental\",[],[[],[]],null],[11],[1,1,0,0,\"\\n  \"],[11],[1,1,0,0,\"\\n\"],[11]],\"hasEval\":false,\"upvars\":[]}",
+    "id": "MJ+fioka",
+    "block": "{\"symbols\":[\"rental\",\"@model\"],\"statements\":[[7,\"jumbo\",[],[[],[]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"\\n  \"],[9,\"h2\",true],[10],[1,1,0,0,\"Welcome to Super Rentals!\"],[11],[1,1,0,0,\"\\n  \"],[9,\"p\",true],[10],[1,1,0,0,\"We hope you find exactly what you're looking for in a place to stay.\"],[11],[1,1,0,0,\"\\n  \"],[7,\"link-to\",[[23,\"class\",\"button\",null]],[[\"@route\"],[\"about\"]],[[\"default\"],[{\"statements\":[[1,1,0,0,\"About Us\"]],\"parameters\":[]}]]],[1,1,0,0,\"\\n\"]],\"parameters\":[]}]]],[1,1,0,0,\"\\n\\n\"],[9,\"div\",true],[12,\"class\",\"rentals\",null],[10],[1,1,0,0,\"\\n  \"],[9,\"ul\",true],[12,\"class\",\"results\",null],[10],[1,1,0,0,\"\\n\"],[5,[27,[26,1,\"BlockHead\"],[]],[[31,0,0,[27,[26,0,\"CallHead\"],[]],[[31,0,0,[27,[26,0,\"CallHead\"],[]],[[27,[24,2],[]]],null]],null]],null,[[\"default\"],[{\"statements\":[[1,1,0,0,\"      \"],[9,\"li\",true],[10],[7,\"rental\",[],[[\"@rental\"],[[27,[24,1],[]]]],null],[11],[1,1,0,0,\"\\n\"]],\"parameters\":[1]}]]],[1,1,0,0,\"  \"],[11],[1,1,0,0,\"\\n\"],[11]],\"hasEval\":false,\"upvars\":[\"-track-array\",\"each\"]}",
     "meta": {
       "moduleName": "super-rentals/templates/index.hbs"
     }
@@ -735,7 +774,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("super-rentals/app")["default"].create({"name":"super-rentals","version":"0.0.0+c7fcc0a2"});
+            require("super-rentals/app")["default"].create({"name":"super-rentals","version":"0.0.0+a00b78d5"});
           }
         
 //# sourceMappingURL=super-rentals.map
