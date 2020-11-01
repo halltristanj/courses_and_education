@@ -195,13 +195,29 @@ define("super-rentals/tests/integration/components/rental-test", ["qunit", "embe
   (0, _qunit.module)('Integration | Component | rental', function (hooks) {
     (0, _emberQunit.setupRenderingTest)(hooks);
     (0, _qunit.test)('it renders information about a rental property', async function (assert) {
+      this.setProperties({
+        rental: {
+          title: 'Grand Old Mansion',
+          owner: 'Veruca Salt',
+          city: 'San Francisco',
+          location: {
+            lat: 37.7749,
+            lng: -122.4194
+          },
+          category: 'Estate',
+          type: 'Standalone',
+          bedrooms: 15,
+          image: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg',
+          description: 'This grand old mansion sits on over 100 acres of rolling hills and dense redwood forests.'
+        }
+      });
       await (0, _testHelpers.render)(Ember.HTMLBars.template(
       /*
-        <Rental />
+        <Rental @rental={{this.rental}} />
       */
       {
-        id: "JduD6Q+w",
-        block: "{\"symbols\":[],\"statements\":[[7,\"rental\",[],[[],[]],null]],\"hasEval\":false,\"upvars\":[]}",
+        id: "56rmR8vx",
+        block: "{\"symbols\":[],\"statements\":[[7,\"rental\",[],[[\"@rental\"],[[27,[24,0],[\"rental\"]]]],null]],\"hasEval\":false,\"upvars\":[]}",
         meta: {}
       }));
       assert.dom('article').hasClass('rental');
