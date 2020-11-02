@@ -11,10 +11,8 @@ export default class IndexRoute extends Route {
     let response = await fetch('/api/rentals.json');
     let { data } = await response.json();
 
-    debugger;
-
     return data.map(model => {
-      let { attributes } = model;
+      let { id, attributes } = model;
       let type;
 
       if (COMMUNITY_CATEGORIES.includes(attributes.category)) {
@@ -23,7 +21,7 @@ export default class IndexRoute extends Route {
         type = 'Standalone';
       }
 
-      return { type, ...attributes };
+      return { id, type, ...attributes };
     });
   }
 }
