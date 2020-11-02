@@ -1,4 +1,5 @@
 *.idea/
 .idea/
 
-dist/
+web_development/ember-tutorial/super-rentals/dist/
+web_development/ember-tutorial/super-rentals/node_modules/
