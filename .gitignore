@@ -3,3 +3,7 @@
 
 web_development/ember-tutorial/super-rentals/dist/
 web_development/ember-tutorial/super-rentals/node_modules/
+
+# Terraform
+*.tfstate*
+ci_cd/terraform-for-aws-beginner-to-expert-2020/first-resource/
