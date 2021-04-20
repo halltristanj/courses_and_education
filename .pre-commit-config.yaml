@@ -1,0 +1,34 @@
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v3.2.0
+  hooks:
+    - id: check-yaml
+      args: [--allow-multiple-documents]
+    - id: check-json
+    - id: end-of-file-fixer
+    - id: trailing-whitespace
+    - id: pretty-format-json
+    - id: detect-aws-credentials
+    - id: detect-private-key
+    - id: double-quote-string-fixer
+- repo: https://github.com/timothycrosley/isort
+  rev: 5.4.2
+  hooks:
+    - id: isort
+      args: [--force-single-line-imports]
+- repo: https://github.com/psf/black
+  rev: 20.8b1
+  hooks:
+    - id: black
+- repo: https://gitlab.com/pycqa/flake8
+  rev: '3.8.3'
+  hooks:
+    - id: flake8
+#- repo: https://github.com/tfsec/tfsec
+#  rev: v0.39.21
+#  hooks:
+#    - id: tfsec
+- repo: git://github.com/antonbabenko/pre-commit-terraform
+  rev: v1.49.0
+  hooks:
+    - id: terraform_tfsec
